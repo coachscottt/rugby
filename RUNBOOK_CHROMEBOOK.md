@@ -1,17 +1,27 @@
 # Rugby on the Chromebook — runbook
 
-Same Linux terminal as the soccer setup. First-timer notes are in
-soccer's RUNBOOK_CHROMEBOOK.md (paste = Ctrl+Shift+V, `ls` = letters, etc.)
+Same Linux terminal as the soccer/WNBA setups. First-timer notes are in
+soccer's RUNBOOK_CHROMEBOOK.md (paste = Ctrl+Shift+V, `ls` = letters L-S,
+passwords/tokens type invisibly, Ctrl+C un-sticks anything).
 
-## One-time setup
+## Why this one is the easiest
+Rugby has **no database and no big files** — results, odds logs, model
+params, per-round fairs and the bet ledger are all small CSV/JSON *inside
+this repo*. So git is the whole sync story: pull before, push after.
+Nothing to carry, nothing to train, no Polars (pure numpy/scipy/requests).
+
+## One-time setup (~2 min) — paste as ONE block
 ```
-cd ~ && git clone https://github.com/coachscottt/rugby.git && cd rugby
-python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
-cp .env.example .env && nano .env      # paste THE_ODDS_API_KEY=... , Ctrl+O Enter Ctrl+X
-python rugby_board.py                  # smoke test: should print "wrote ... rugby_board.html"
+cd ~ && git clone https://github.com/coachscottt/rugby.git && cd rugby && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && grep THE_ODDS_API_KEY ~/soccer/.env >> .env && python rugby_board.py
 ```
-(The odds key is the same one in soccer's `.env` — copy the line from there:
-`grep THE_ODDS_API_KEY ~/soccer/.env >> .env` does it in one go.)
+**Success looks like** the last lines printing
+`wrote .../rugby_board.html` then `record 12-5 · P/L +653 · ROI +34.2%`
+(numbers will grow over time) — the board rebuilt from the CSVs that came
+down with the repo, so everything works.
+- The odds key is copied straight from soccer's `.env` (same key, same name).
+- Pushing uses the git credential you already cached for WNBA — no prompts.
+  If it ever asks: username `coachscottt`, password = your GitHub token,
+  **typed at the prompt, never pasted into a chat.**
 
 ## Every session
 ```
@@ -20,16 +30,27 @@ cd ~/rugby && source .venv/bin/activate && git pull
 
 ## Round routine
 ```
-python nrl_odds_pull.py        # log current NRL lines (run a few times pre-round for movement)
-python rl_results_pull.py      # after games: pull results
-python rugby_board.py          # rebuild the board
+python nrl_odds_pull.py        # log current NRL lines (run a few times pre-round to keep line movement)
+python rl_results_pull.py      # after the games: pull NRL + Super League results
+python rugby_board.py          # rebuild the board html
 git add -A && git commit -m "round update" && git push
 ```
-Then in Claude Code (`claude` in this folder): "post the rugby board on
-Lavish" / grade bets from your feedback into `rugby_bets.csv` as usual.
+Then `claude` in this folder: "post the rugby board on Lavish" (it publishes
+to the existing rugby board URL from memory) and grade bets from your
+feedback into `rugby_bets.csv` — identical to the PC flow.
 
-## THE SYNC RULE (different from soccer!)
-Rugby has NO database — all data is CSVs inside the repo. So the rule is
-simply: **`git pull` before you work, `git push` after.** Do that on
-whichever machine you use and both stay identical. (Soccer's
-"one machine owns the DB" rule does not apply here.)
+## Sync rule
+**`git pull` before you work, `git push` after — on whichever machine.**
+That's it. (Soccer's "one machine owns the DB" rule does not apply here;
+WNBA's "cloud collector is canonical" doesn't either — rugby has no
+automation, the repo is simply the shared folder.)
+
+## If something goes wrong
+| You see | Do |
+|---|---|
+| `command not found: python` | `source .venv/bin/activate` |
+| `THE_ODDS_API_KEY not found` | `.env` missing the key: `grep THE_ODDS_API_KEY ~/soccer/.env >> .env` |
+| `git push` rejected (non-fast-forward) | `git pull --rebase --autostash && git push` (someone/somewhere pushed first) |
+| `git push` asks for a password | enter your GitHub token at the prompt (see setup) |
+| results pull returns nothing | RLP not updated yet — normal right after full-time; retry later |
+| board shows stale record | you forgot `git pull` — the ledger CSV is in the repo |
