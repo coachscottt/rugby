@@ -1,0 +1,173 @@
+round,date,home_team,away_team,home_score,away_score,venue
+Round 1,2026-02-12,York Knights,Hull Kingston Rovers,19,18,LNER Community Stadium
+Round 1,2026-02-13,Catalans Dragons,Huddersfield Giants,26,10,Stade Gilbert Brutus
+Round 1,2026-02-13,Leigh Leopards,Leeds Rhinos,26,14,Progress with Unity Stadium
+Round 1,2026-02-13,Warrington Wolves,St Helens,24,14,Halliwell Jones Stadium
+Round 1,2026-02-14,Hull FC,Bradford Bulls,27,20,MKM Stadium
+Round 1,2026-02-14,Wakefield Trinity,Toulouse Olympique,16,18,DIY Kitchens Stadium
+Round 1,2026-02-15,Castleford Tigers,Wigan Warriors,16,26,OneBore Stadium
+Round 2,2026-02-20,Bradford Bulls,Catalans Dragons,28,10,Bartercard Odsal Stadium
+Round 2,2026-02-20,Leeds Rhinos,York Knights,46,14,AMT Headingley Stadium
+Round 2,2026-02-20,St Helens,Leigh Leopards,20,18,Brewdog Stadium
+Round 2,2026-02-21,Toulouse Olympique,Castleford Tigers,24,12,Stade Ernest Wallon
+Round 2,2026-02-21,Wigan Warriors,Hull FC,34,6,The Brick Community Stadium
+Round 2,2026-02-22,Huddersfield Giants,Wakefield Trinity,16,18,Accu Stadium
+Round 3,2026-02-26,Wigan Warriors,Leigh Leopards,54,0,The Brick Community Stadium
+Round 3,2026-02-27,Castleford Tigers,Huddersfield Giants,34,8,OneBore Stadium
+Round 3,2026-02-27,Hull FC,York Knights,16,17,MKM Stadium
+Round 3,2026-02-28,Warrington Wolves,Wakefield Trinity,27,16,Halliwell Jones Stadium
+Round 3,2026-02-28,Catalans Dragons,St Helens,4,36,Stade Gilbert Brutus
+Round 3,2026-02-28,Hull Kingston Rovers,Leeds Rhinos,6,58,Allegiant Stadium
+Round 3,2026-03-01,Bradford Bulls,Toulouse Olympique,18,6,Bartercard Odsal Stadium
+Round 4,2026-03-05,Wakefield Trinity,Hull FC,14,10,DIY Kitchens Stadium
+Round 4,2026-03-06,Leigh Leopards,Catalans Dragons,16,22,Progress with Unity Stadium
+Round 4,2026-03-06,York Knights,Warrington Wolves,30,38,LNER Community Stadium
+Round 4,2026-03-07,St Helens,Bradford Bulls,26,22,Brewdog Stadium
+Round 4,2026-03-07,Toulouse Olympique,Wigan Warriors,16,36,Stade Ernest Wallon
+Round 4,2026-03-08,Huddersfield Giants,Hull Kingston Rovers,6,32,Accu Stadium
+Round 4,2026-03-08,Leeds Rhinos,Castleford Tigers,22,4,AMT Headingley Stadium
+Round 4,2026-03-13,Wakefield Trinity,Leeds Rhinos,24,14,DIY Kitchens Stadium
+Round 4,2026-03-13,Wigan Warriors,Bradford Bulls,30,6,The Brick Community Stadium
+Round 4,2026-03-14,Huddersfield Giants,Hull Kingston Rovers,12,52,Accu Stadium
+Round 4,2026-03-14,Leigh Leopards,Hull FC,16,6,Progress with Unity Stadium
+Round 4,2026-03-14,Castleford Tigers,St Helens,8,32,OneBore Stadium
+Round 5,2026-03-19,Wigan Warriors,York Knights,23,22,The Brick Community Stadium
+Round 5,2026-03-20,Toulouse Olympique,St Helens,16,30,Stade Ernest Wallon
+Round 5,2026-03-20,Bradford Bulls,Huddersfield Giants,26,14,Bartercard Odsal Stadium
+Round 5,2026-03-20,Wakefield Trinity,Leigh Leopards,18,14,DIY Kitchens Stadium
+Round 5,2026-03-21,Warrington Wolves,Castleford Tigers,72,6,Halliwell Jones Stadium
+Round 5,2026-03-21,Catalans Dragons,Hull Kingston Rovers,26,20,Stade Gilbert Brutus
+Round 5,2026-03-22,Hull FC,Leeds Rhinos,24,16,MKM Stadium
+Round 6,2026-03-26,Castleford Tigers,Bradford Bulls,40,28,OneBore Stadium
+Round 6,2026-03-27,Hull Kingston Rovers,St Helens,52,10,Sewell Group Craven Park
+Round 6,2026-03-27,York Knights,Wakefield Trinity,14,26,LNER Community Stadium
+Round 6,2026-03-28,Wigan Warriors,Huddersfield Giants,16,34,The Brick Community Stadium
+Round 6,2026-03-28,Leigh Leopards,Toulouse Olympique,21,20,Progress with Unity Stadium
+Round 6,2026-03-29,Hull FC,Catalans Dragons,24,20,MKM Stadium
+Round 6,2026-03-29,Leeds Rhinos,Warrington Wolves,26,22,AMT Headingley Stadium
+Round 7,2026-04-03,Hull Kingston Rovers,Hull FC,24,6,Sewell Group Craven Park
+Round 7,2026-04-03,St Helens,Wigan Warriors,34,24,Brewdog Stadium
+Round 7,2026-04-03,Bradford Bulls,Leeds Rhinos,12,24,Bartercard Odsal Stadium
+Round 7,2026-04-04,Huddersfield Giants,York Knights,34,14,Accu Stadium
+Round 7,2026-04-04,Warrington Wolves,Leigh Leopards,42,6,Halliwell Jones Stadium
+Round 7,2026-04-04,Catalans Dragons,Toulouse Olympique,33,26,Stade Gilbert Brutus
+Round 7,2026-04-05,Castleford Tigers,Wakefield Trinity,0,34,OneBore Stadium
+Round 7,2026-04-10,St Helens,Catalans Dragons,36,4,Brewdog Stadium
+Round 7,2026-04-11,Hull Kingston Rovers,York Knights,48,10,Sewell Group Craven Park
+Round 7,2026-04-11,Warrington Wolves,Leigh Leopards,24,10,Halliwell Jones Stadium
+Round 7,2026-04-12,Wakefield Trinity,Wigan Warriors,22,26,DIY Kitchens Stadium
+Round 8,2026-04-16,Hull FC,St Helens,14,24,MKM Stadium
+Round 8,2026-04-17,Toulouse Olympique,Hull Kingston Rovers,0,46,Stade Ernest Wallon
+Round 8,2026-04-17,Huddersfield Giants,Leeds Rhinos,22,56,Accu Stadium
+Round 8,2026-04-17,York Knights,Leigh Leopards,6,18,LNER Community Stadium
+Round 8,2026-04-18,Wakefield Trinity,Bradford Bulls,52,12,DIY Kitchens Stadium
+Round 8,2026-04-18,Catalans Dragons,Warrington Wolves,38,22,Stade Gilbert Brutus
+Round 8,2026-04-19,Wigan Warriors,Castleford Tigers,14,24,The Brick Community Stadium
+Round 9,2026-04-23,Leigh Leopards,Huddersfield Giants,30,16,Progress with Unity Stadium
+Round 9,2026-04-23,York Knights,Toulouse Olympique,38,14,LNER Community Stadium
+Round 9,2026-04-24,Castleford Tigers,Hull FC,10,50,OneBore Stadium
+Round 9,2026-04-24,Leeds Rhinos,Catalans Dragons,46,4,AMT Headingley Stadium
+Round 9,2026-04-24,Warrington Wolves,Wigan Warriors,23,6,Halliwell Jones Stadium
+Round 9,2026-04-25,Bradford Bulls,Hull Kingston Rovers,12,48,Bartercard Odsal Stadium
+Round 9,2026-04-25,St Helens,Wakefield Trinity,18,12,Brewdog Stadium
+Round 10,2026-04-30,Hull Kingston Rovers,Castleford Tigers,50,6,Sewell Group Craven Park
+Round 10,2026-05-01,Leeds Rhinos,Wakefield Trinity,40,22,AMT Headingley Stadium
+Round 10,2026-05-01,St Helens,York Knights,40,16,Brewdog Stadium
+Round 10,2026-05-02,Wigan Warriors,Bradford Bulls,38,14,The Brick Community Stadium
+Round 10,2026-05-02,Catalans Dragons,Leigh Leopards,18,33,Stade Gilbert Brutus
+Round 10,2026-05-02,Huddersfield Giants,Warrington Wolves,4,34,Accu Stadium
+Round 10,2026-05-03,Hull FC,Toulouse Olympique,4,12,MKM Stadium
+Round 10,2026-05-09,St Helens,Wigan Warriors,0,32,Halliwell Jones Stadium
+Round 10,2026-05-10,Warrington Wolves,Hull Kingston Rovers,12,32,Eco-Power Stadium
+Round 11,2026-05-14,Huddersfield Giants,St Helens,18,26,Accu Stadium
+Round 11,2026-05-15,Wakefield Trinity,Catalans Dragons,58,10,DIY Kitchens Stadium
+Round 11,2026-05-15,Wigan Warriors,Leeds Rhinos,24,4,The Brick Community Stadium
+Round 11,2026-05-16,York Knights,Castleford Tigers,18,24,LNER Community Stadium
+Round 11,2026-05-16,Leigh Leopards,Hull Kingston Rovers,16,20,Progress with Unity Stadium
+Round 11,2026-05-16,Toulouse Olympique,Warrington Wolves,16,24,Stade Michel-Bénichou
+Round 11,2026-05-17,Bradford Bulls,Hull FC,16,14,Bartercard Odsal Stadium
+Round 12,2026-05-21,Hull Kingston Rovers,Wigan Warriors,62,4,Sewell Group Craven Park
+Round 12,2026-05-22,Leeds Rhinos,Huddersfield Giants,52,0,AMT Headingley Stadium
+Round 12,2026-05-22,Leigh Leopards,Hull FC,42,6,Progress with Unity Stadium
+Round 12,2026-05-23,Castleford Tigers,St Helens,30,10,OneBore Stadium
+Round 12,2026-05-23,Toulouse Olympique,Wakefield Trinity,18,22,Stade Ernest Wallon
+Round 12,2026-05-23,York Knights,Catalans Dragons,22,36,LNER Community Stadium
+Round 12,2026-05-24,Warrington Wolves,Bradford Bulls,26,12,Halliwell Jones Stadium
+Round 12,2026-05-30,Wigan Warriors,Hull Kingston Rovers,40,10,Wembley Stadium
+Round 13,2026-06-04,Leeds Rhinos,St Helens,24,16,AMT Headingley Stadium
+Round 13,2026-06-05,Bradford Bulls,York Knights,30,20,Bartercard Odsal Stadium
+Round 13,2026-06-05,Castleford Tigers,Leigh Leopards,14,24,OneBore Stadium
+Round 13,2026-06-05,Warrington Wolves,Hull FC,12,4,Halliwell Jones Stadium
+Round 13,2026-06-06,Huddersfield Giants,Toulouse Olympique,16,36,FLAIR Stadium
+Round 13,2026-06-06,Wakefield Trinity,Hull Kingston Rovers,26,24,DIY Kitchens Stadium
+Round 13,2026-06-06,Catalans Dragons,Wigan Warriors,16,40,Stade Jean-Bouin
+Round 14,2026-06-11,St Helens,Warrington Wolves,6,18,Brewdog Stadium
+Round 14,2026-06-12,Toulouse Olympique,Leeds Rhinos,24,48,Stade Ernest Wallon
+Round 14,2026-06-12,Hull Kingston Rovers,York Knights,38,6,Sewell Group Craven Park
+Round 14,2026-06-12,Wakefield Trinity,Wigan Warriors,10,48,DIY Kitchens Stadium
+Round 14,2026-06-13,Hull FC,Huddersfield Giants,36,12,MKM Stadium
+Round 14,2026-06-13,Catalans Dragons,Castleford Tigers,34,28,Stade Gilbert Brutus
+Round 14,2026-06-14,Bradford Bulls,Leigh Leopards,12,38,Bartercard Odsal Stadium
+Round 15,2026-06-18,Warrington Wolves,Leeds Rhinos,6,34,Halliwell Jones Stadium
+Round 15,2026-06-19,Hull FC,Wakefield Trinity,10,36,MKM Stadium
+Round 15,2026-06-19,Hull Kingston Rovers,Leigh Leopards,22,8,Sewell Group Craven Park
+Round 15,2026-06-20,York Knights,Wigan Warriors,20,72,LNER Community Stadium
+Round 15,2026-06-20,Catalans Dragons,Bradford Bulls,34,24,Stade Gilbert Brutus
+Round 15,2026-06-20,Castleford Tigers,Toulouse Olympique,36,18,OneBore Stadium
+Round 15,2026-06-21,St Helens,Huddersfield Giants,38,6,Brewdog Stadium
+Round 16,2026-06-25,Warrington Wolves,Catalans Dragons,18,16,Halliwell Jones Stadium
+Round 16,2026-06-26,Castleford Tigers,York Knights,14,20,OneBore Stadium
+Round 16,2026-06-26,Leeds Rhinos,Hull Kingston Rovers,34,8,AMT Headingley Stadium
+Round 16,2026-06-27,Hull FC,Wigan Warriors,16,20,MKM Stadium
+Round 16,2026-06-27,Toulouse Olympique,Leigh Leopards,16,40,Stade Ernest Wallon
+Round 16,2026-06-27,Bradford Bulls,St Helens,10,40,Bartercard Odsal Stadium
+Round 16,2026-06-28,Wakefield Trinity,Huddersfield Giants,29,23,DIY Kitchens Stadium
+Round 16,2026-07-04,Huddersfield Giants,York Knights,24,36,Everton Stadium
+Round 16,2026-07-04,Hull Kingston Rovers,Hull FC,26,12,Everton Stadium
+Round 16,2026-07-04,Leigh Leopards,Warrington Wolves,24,6,Everton Stadium
+Round 16,2026-07-04,Catalans Dragons,Toulouse Olympique,18,60,Stade Pierre-Fabre
+Round 16,2026-07-05,Wakefield Trinity,Castleford Tigers,48,6,Everton Stadium
+Round 16,2026-07-05,Leeds Rhinos,Bradford Bulls,50,16,Everton Stadium
+Round 16,2026-07-05,Wigan Warriors,St Helens,16,14,Everton Stadium
+Round 18,2026-07-09,York Knights,Hull FC,20,16,LNER Community Stadium
+Round 18,2026-07-10,Huddersfield Giants,Bradford Bulls,14,30,Accu Stadium
+Round 18,2026-07-10,Wigan Warriors,Warrington Wolves,30,18,The Brick Community Stadium
+Round 18,2026-07-11,Leigh Leopards,Castleford Tigers,24,18,Progress with Unity Stadium
+Round 18,2026-07-11,Hull Kingston Rovers,Wakefield Trinity,6,20,Sewell Group Craven Park
+Round 18,2026-07-11,Catalans Dragons,Leeds Rhinos,6,28,Stade Gilbert Brutus
+Round 18,2026-07-12,St Helens,Toulouse Olympique,0,46,Brewdog Stadium
+Round 19,2026-07-16,Bradford Bulls,Wakefield Trinity,12,26,Bartercard Odsal Stadium
+Round 19,2026-07-17,Huddersfield Giants,Wigan Warriors,10,24,Accu Stadium
+Round 19,2026-07-17,St Helens,Catalans Dragons,34,18,Brewdog Stadium
+Round 19,2026-07-18,Warrington Wolves,Hull Kingston Rovers,34,12,Halliwell Jones Stadium
+Round 19,2026-07-18,Hull FC,Leigh Leopards,22,32,MKM Stadium
+Round 19,2026-07-18,Toulouse Olympique,York Knights,30,22,Stade Ernest Wallon
+Round 19,2026-07-19,Castleford Tigers,Leeds Rhinos,36,34,OneBore Stadium
+Round 20,2026-07-23,Hull FC,Hull Kingston Rovers,20,34,MKM Stadium
+Round 20,2026-07-24,Wakefield Trinity,Castleford Tigers,52,14,DIY Kitchens Stadium
+Round 20,2026-07-24,Wigan Warriors,St Helens,38,16,The Brick Community Stadium
+Round 20,2026-07-25,York Knights,Huddersfield Giants,22,24,LNER Community Stadium
+Round 20,2026-07-25,Leigh Leopards,Warrington Wolves,28,12,Progress with Unity Stadium
+Round 20,2026-07-25,Toulouse Olympique,Catalans Dragons,16,18,Stade Ernest Wallon
+Round 20,2026-07-26,Leeds Rhinos,Bradford Bulls,42,12,AMT Headingley Stadium
+Round 21,2026-07-30,Huddersfield Giants,Hull FC,22,16,Accu Stadium
+Round 21,2026-07-31,Hull Kingston Rovers,Bradford Bulls,40,16,Sewell Group Craven Park
+Round 21,2026-07-31,Leeds Rhinos,Toulouse Olympique,46,0,AMT Headingley Stadium
+Round 21,2026-07-31,Leigh Leopards,Wigan Warriors,8,20,Progress with Unity Stadium
+Round 21,2026-08-01,Castleford Tigers,Warrington Wolves,18,48,OneBore Stadium
+Round 21,2026-08-01,York Knights,St Helens,34,32,LNER Community Stadium
+Round 21,2026-08-01,Catalans Dragons,Wakefield Trinity,12,32,Stade Gilbert Brutus
+Round 22,2026-08-06,St Helens,Hull FC,18,32,Brewdog Stadium
+Round 22,2026-08-07,Castleford Tigers,Hull Kingston Rovers,0,44,OneBore Stadium
+Round 22,2026-08-07,Leigh Leopards,York Knights,22,14,Progress with Unity Stadium
+Round 22,2026-08-07,Wakefield Trinity,Leeds Rhinos,22,24,DIY Kitchens Stadium
+Round 22,2026-08-08,Huddersfield Giants,Catalans Dragons,42,20,Accu Stadium
+Round 22,2026-08-08,Wigan Warriors,Toulouse Olympique,48,18,The Brick Community Stadium
+Round 22,2026-08-08,Bradford Bulls,Warrington Wolves,4,42,Bartercard Odsal Stadium
+Round 23,2026-08-13,Hull Kingston Rovers,Catalans Dragons,28,10,Sewell Group Craven Park
+Round 23,2026-08-13,Leeds Rhinos,Leigh Leopards,16,20,AMT Headingley
+Round 23,2026-08-13,Warrington Wolves,York Knights,30,10,Halliwell Jones
+Round 23,2026-08-14,Hull FC,Castleford Tigers,14,18,MKM Stadium
+Round 23,2026-08-15,Wakefield Trinity,St Helens,16,46,DIY Kitchens
+Round 23,2026-08-15,Bradford Bulls,Wigan Warriors,6,34,Odsal
+Round 23,2026-08-15,Toulouse Olympique,Huddersfield Giants,10,26,Stade Ernest Wallon

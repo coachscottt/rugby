@@ -1,0 +1,280 @@
+<title>Rugby League Fair Value Board</title>
+<style>
+:root{--paper:#F3F5F7;--ink:#1C2733;--sub:#5E6E7D;--rule:#D6DDE3;--brass:#9A711F;
+--card:#FFFFFF;--card2:#EDF1F4;--steel:#58748C;--mist:#C2CCD5;--sand:#B08A57;
+--pos:#2F7D5B;--neg:#B4453C;--chip:#E7ECF0;}
+@media (prefers-color-scheme:dark){:root{--paper:#0F151C;--ink:#E6ECF1;--sub:#8FA0AF;
+--rule:#26313D;--brass:#D9A93C;--card:#161E27;--card2:#1B2530;--steel:#5C82A2;
+--mist:#3A4854;--sand:#B98D52;--pos:#5BB98C;--neg:#D9736A;--chip:#1D2833;}}
+:root[data-theme="dark"]{--paper:#0F151C;--ink:#E6ECF1;--sub:#8FA0AF;--rule:#26313D;
+--brass:#D9A93C;--card:#161E27;--card2:#1B2530;--steel:#5C82A2;--mist:#3A4854;
+--sand:#B98D52;--pos:#5BB98C;--neg:#D9736A;--chip:#1D2833;}
+:root[data-theme="light"]{--paper:#F3F5F7;--ink:#1C2733;--sub:#5E6E7D;--rule:#D6DDE3;
+--brass:#9A711F;--card:#FFFFFF;--card2:#EDF1F4;--steel:#58748C;--mist:#C2CCD5;
+--sand:#B08A57;--pos:#2F7D5B;--neg:#B4453C;--chip:#E7ECF0;}
+*{box-sizing:border-box;}
+body{background:var(--paper);color:var(--ink);margin:0;
+font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding:26px 20px 72px;}
+.wrap{max-width:1100px;margin:0 auto;}
+h1{font-size:23px;font-weight:700;letter-spacing:-0.01em;margin:0;}
+.stamp{color:var(--sub);font-size:13px;margin-top:2px;}
+.note{color:var(--sub);font-size:13px;margin:6px 0 22px;max-width:74ch;}
+.note b{color:var(--ink);font-weight:600;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:12px;margin-bottom:24px;}
+.c{background:var(--card);border:1px solid var(--rule);border-radius:9px;
+padding:13px 15px;min-width:0;}
+.c .k{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--sub);
+font-weight:600;}
+.c .v{font-size:25px;font-weight:700;margin-top:3px;font-variant-numeric:tabular-nums;}
+.c .sub{font-size:12px;color:var(--sub);margin-top:1px;}
+.c .v.pos{color:var(--pos);} .c .v.neg{color:var(--neg);}
+.league{margin:30px 0 0;}
+.eyebrow{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+border-bottom:2px solid var(--brass);padding-bottom:6px;}
+.eyebrow h2{font-size:13px;font-weight:700;text-transform:uppercase;
+letter-spacing:.09em;margin:0;color:var(--brass);}
+.eyebrow .meta{color:var(--sub);font-size:12.5px;}
+.scroller{overflow-x:auto;}
+table{border-collapse:collapse;width:100%;min-width:900px;background:var(--card);}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--sub);
+font-weight:600;text-align:right;padding:10px 10px 6px;border-bottom:1px solid var(--rule);
+white-space:nowrap;}
+th.l{text-align:left;}
+td{padding:9px 10px;border-bottom:1px solid var(--rule);text-align:right;
+white-space:nowrap;font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;
+font-variant-numeric:tabular-nums;font-size:13.5px;}
+td.l{text-align:left;font-family:inherit;font-size:14px;min-width:0;}
+tr:hover td{background:var(--card2);}
+.date{color:var(--sub);font-size:12px;font-family:ui-monospace,Consolas,monospace;}
+.tag{display:inline-block;background:var(--chip);color:var(--sub);border-radius:4px;
+padding:1px 7px;font-size:11.5px;font-weight:600;}
+.match b{font-weight:650;} .match .v{color:var(--sub);padding:0 5px;font-size:12px;}
+.favcell{min-width:170px;}
+.pnums{display:flex;justify-content:space-between;gap:8px;font-size:13px;}
+.pnums .fav{font-weight:700;}
+.pnums .hn{color:var(--steel);} .pnums .an{color:var(--sand);} .pnums .dn{color:var(--sub);}
+.probbar{display:flex;height:6px;border-radius:3px;overflow:hidden;margin-top:5px;}
+.probbar span{display:block;height:100%;}
+.probbar .h{background:var(--steel);} .probbar .d{background:var(--mist);}
+.probbar .a{background:var(--sand);}
+.hi{color:var(--brass);font-weight:700;}
+.res{display:inline-block;border-radius:4px;padding:1px 8px;font-size:11.5px;
+font-weight:700;letter-spacing:.03em;}
+.res.win{background:var(--pos);color:var(--paper);}
+.res.loss{background:var(--sub);color:var(--paper);opacity:.75;}
+.pnl-pos{color:var(--pos);font-weight:700;} .pnl-neg{color:var(--sub);}
+.legend{display:flex;gap:16px;margin:14px 2px 0;color:var(--sub);font-size:12.5px;
+flex-wrap:wrap;}
+.legend .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;}
+footer{margin-top:34px;color:var(--sub);font-size:12.5px;max-width:80ch;}
+code{background:var(--chip);padding:1px 5px;border-radius:4px;
+font-family:ui-monospace,Consolas,monospace;font-size:12.5px;}
+</style>
+<div class="wrap">
+  <h1>Rugby League Fair Value Board</h1>
+  <div class="stamp" id="stamp"></div>
+  <p class="note"><b>Fair margins</b> come from a two-stage OLS per league:
+  stage&nbsp;1 predicts both scores from home/away split averages plus a decayed
+  net-form term; stage&nbsp;2 calibrates the raw margin against walk-forward
+  out-of-sample results. <b>Raw margin</b> is the number to hold against a
+  spread; <b>fair MOV</b> is the shrunk single-game prediction, and the
+  shrinkage factor is the model's earned conviction (NRL ~31%, SL ~75%).
+  <b>Edge</b> = raw margin &minus; market-implied margin. Win probabilities are
+  the fair MOV read through the model's own out-of-sample error. Totals carry
+  no out-of-sample signal in either league and are shown for reference only.
+  Everything here is paper until the CLV ledger proves the edges real.</p>
+
+  <div class="cards" id="cards"></div>
+  <div id="boards"></div>
+  <div id="positions"></div>
+  <div id="ledger"></div>
+
+  <div class="legend">
+    <span><span class="sw" style="background:var(--steel)"></span>Home win</span>
+    <span><span class="sw" style="background:var(--mist)"></span>Draw</span>
+    <span><span class="sw" style="background:var(--sand)"></span>Away win</span>
+    <span><span class="sw" style="background:var(--brass)"></span>Edge &ge; 6 pts
+      = bet-sized disagreement (4&ndash;6 = lean)</span>
+    <span>margins in home-team terms &middot; kickoffs local to each league</span>
+  </div>
+  <footer>Rebuild with <code>python rugby_board.py</code> after
+  <code>python rl_results_pull.py</code>, <code>python nrl_odds_pull.py</code> and
+  <code>python nrl_ols_deviation_model.py [nrl|sl]</code>. Lines: The Odds API
+  (NRL, 12 AU books) plus manual Pinnacle/Bet365 captures; results scraped from
+  rugbyleagueproject.org. Ledger is paper on a <b>risk/win $100</b> basis: each
+  bet is sized to win $100 at the best price on offer when it was logged, so the
+  stake is 100/(price&minus;1) &mdash; $114.94 at 1.87 (&minus;115). A win returns
+  $100, a loss costs the stake, and ROI is P/L over the total risked.</footer>
+</div>
+<script>
+const P = {"generated":"2026-08-17T19:36:04Z","boards":{"NRL":[{"home":"Melbourne Storm","away":"Penrith Panthers","kickoff":"2026-08-20T09:50:00Z","raw":0.1,"mov":-0.6,"fair_total":44.5,"spread":8.5,"book":"bet365","total":43.5,"edge":8.6,"p_home":0.469870597210177,"p_draw":0.027386440431328873,"p_away":0.5027429623584941,"ip_home":0.2794769217533445,"ip_away":0.7205230782466555,"score":null},{"home":"Canberra Raiders","away":"Brisbane Broncos","kickoff":"2026-08-21T08:00:00Z","raw":11.1,"mov":3.2,"fair_total":44.4,"spread":-7.5,"book":"bet365","total":51.5,"edge":3.5999999999999996,"p_home":0.5734230431118336,"p_draw":0.02644257456665039,"p_away":0.40013438232151605,"ip_home":0.6738512831349347,"ip_away":0.32614871686506536,"score":null},{"home":"Dolphins","away":"Parramatta Eels","kickoff":"2026-08-21T10:00:00Z","raw":8.5,"mov":2.3,"fair_total":44.5,"spread":-13.5,"book":"bet365","total":51.5,"edge":-5.0,"p_home":0.5491837263074624,"p_draw":0.02690939443551227,"p_away":0.42390687925702536,"ip_home":0.7659607062157712,"ip_away":0.23403929378422889,"score":null},{"home":"Newcastle Knights","away":"Manly Sea Eagles","kickoff":"2026-08-22T05:00:00Z","raw":8.9,"mov":2.4,"fair_total":44.3,"spread":-8.5,"book":"bet365","total":50.5,"edge":0.40000000000000036,"p_home":0.5518933599594699,"p_draw":0.026864552986504975,"p_away":0.42124208705402516,"ip_home":0.686655985351339,"ip_away":0.313344014648661,"score":null},{"home":"South Sydney Rabbitohs","away":"New Zealand Warriors","kickoff":"2026-08-22T07:30:00Z","raw":-5.5,"mov":-2.6,"fair_total":44.6,"spread":3.5,"book":"bet365","total":45.5,"edge":-2.0,"p_home":0.41592904768479944,"p_draw":0.026769509548919546,"p_away":0.557301442766281,"ip_home":0.40924724971775145,"ip_away":0.5907527502822485,"score":null},{"home":"St George Illawarra Dragons","away":"Canterbury Bulldogs","kickoff":"2026-08-22T09:35:00Z","raw":-1.1,"mov":-1.0,"fair_total":44.6,"spread":6.5,"book":"bet365","total":43.5,"edge":5.4,"p_home":0.4589653056584697,"p_draw":0.027323814234653465,"p_away":0.5137108801068768,"ip_home":0.3444055944055944,"ip_away":0.6555944055944055,"score":null},{"home":"Gold Coast Titans","away":"Cronulla Sharks","kickoff":"2026-08-23T04:00:00Z","raw":-10.2,"mov":-4.2,"fair_total":44.5,"spread":6.5,"book":"bet365","total":49.5,"edge":-3.6999999999999993,"p_home":0.37436782902333365,"p_draw":0.025766553298182338,"p_away":0.599865617678484,"ip_home":0.3444055944055944,"ip_away":0.6555944055944055,"score":null},{"home":"Sydney Roosters","away":"Wests Tigers","kickoff":"2026-08-23T06:05:00Z","raw":17.4,"mov":5.3,"fair_total":44.3,"spread":-16.5,"book":"bet365","total":51.5,"edge":0.8999999999999986,"p_home":0.6281658088461956,"p_draw":0.02485427717819455,"p_away":0.3469799139756099,"ip_home":0.8319341713179349,"ip_away":0.168065828682065,"score":null}],"Super League":[{"home":"Leeds Rhinos","away":"Leigh Leopards","kickoff":"2026-08-13","raw":17.3,"mov":14.9,"fair_total":47.8,"spread":-12.0,"book":"pinnacle","total":46.5,"edge":5.300000000000001,"p_home":0.7552816304860517,"p_draw":0.014827203632925945,"p_away":0.22989116588102237,"ip_home":0.7757009345794392,"ip_away":0.22429906542056072,"score":[16,20]},{"home":"Hull Kingston Rovers","away":"Catalans Dragons","kickoff":"2026-08-13","raw":22.3,"mov":19.0,"fair_total":47.4,"spread":-24.5,"book":"pinnacle","total":55.5,"edge":-2.1999999999999993,"p_home":0.8127313427376068,"p_draw":0.012633797104660505,"p_away":0.17463486015773266,"ip_home":0.8826537418293389,"ip_away":0.11734625817066123,"score":[28,10]},{"home":"Warrington Wolves","away":"York Knights","kickoff":"2026-08-13","raw":14.8,"mov":12.8,"fair_total":47.4,"spread":-19.5,"book":"pinnacle","total":52.0,"edge":-4.699999999999999,"p_home":0.7225401683260361,"p_draw":0.01585466082943965,"p_away":0.2616051708445243,"ip_home":0.8525610663779688,"ip_away":0.14743893362203125,"score":[30,10]},{"home":"Hull FC","away":"Castleford Tigers","kickoff":"2026-08-14","raw":8.8,"mov":7.8,"fair_total":46.9,"spread":-13.0,"book":"pinnacle","total":48.0,"edge":-4.199999999999999,"p_home":0.6369816827004788,"p_draw":0.0178516946585075,"p_away":0.34516662264101367,"ip_home":0.7966252375058831,"ip_away":0.20337476249411682,"score":[14,18]},{"home":"Wakefield Trinity","away":"St Helens","kickoff":"2026-08-15","raw":16.6,"mov":14.3,"fair_total":47.3,"spread":-12.5,"book":"pinnacle","total":47.5,"edge":4.100000000000001,"p_home":0.746144074943252,"p_draw":0.015129447834950183,"p_away":0.23872647722179785,"ip_home":0.7751647693229479,"ip_away":0.22483523067705213,"score":[16,46]},{"home":"Bradford Bulls","away":"Wigan Warriors","kickoff":"2026-08-15","raw":-26.5,"mov":-21.4,"fair_total":47.3,"spread":22.0,"book":"pinnacle","total":53.5,"edge":-4.5,"p_home":0.14658163510117928,"p_draw":0.011298810443977514,"p_away":0.8421195544548432,"ip_home":0.1453791627658152,"ip_away":0.8546208372341849,"score":[6,34]},{"home":"Toulouse Olympique","away":"Huddersfield Giants","kickoff":"2026-08-15","raw":2.6,"mov":2.8,"fair_total":46.8,"spread":-4.5,"book":"pinnacle","total":48.5,"edge":-1.9,"p_home":0.5439542384008689,"p_draw":0.018975403711372907,"p_away":0.4370703578877582,"ip_home":0.5800613576013819,"ip_away":0.4199386423986181,"score":[10,26]}]},"leagues":{"NRL":{"round":"Round 25","slope":0.343566723629864,"sigma":20.059363218968162,"oos":92,"lam_form":0.8,"err_dist":"t","err_df":3.2793611807544094},"Super League":{"round":"Round 23","slope":0.7845609127099663,"sigma":20.832995046779804,"oos":92,"lam_form":0.9,"err_dist":"norm","err_df":36.976411954864396}},"settled":[{"league":"NRL","home":"Gold Coast Titans","away":"North Queensland Cowboys","sel":"Gold Coast Titans","line":3.5,"market":"spread","price":1.98,"us":-102,"stake":102.04,"book":"sportsbet","assumed":false,"clv":0.0,"note":"edge 8.6 at entry","logged":"2026-08-03","score":"8-30","ats":-18.5,"result":"LOSS","pnl":-102.04081632653062},{"league":"NRL","home":"New Zealand Warriors","away":"Penrith Panthers","sel":"New Zealand Warriors","line":5.5,"market":"spread","price":1.9,"us":-111,"stake":111.11,"book":"sportsbet","assumed":false,"clv":2.0,"note":"edge 7.2 at entry","logged":"2026-08-03","score":"28-12","ats":21.5,"result":"WIN","pnl":100.0},{"league":"NRL","home":"Dolphins","away":"Brisbane Broncos","sel":"Dolphins","line":-7.5,"market":"spread","price":1.9,"us":-111,"stake":111.11,"book":"sportsbet","assumed":false,"clv":-1.0,"note":"lean; edge 4.6 at entry","logged":"2026-08-03","score":"40-32","ats":0.5,"result":"WIN","pnl":100.0},{"league":"NRL","home":"Canberra Raiders","away":"Newcastle Knights","sel":"Newcastle Knights","line":3.5,"market":"spread","price":1.95,"us":-105,"stake":105.26,"book":"tab","assumed":false,"clv":5.0,"note":"lean; market later flipped Knights favourite","logged":"2026-08-03","score":"24-30","ats":9.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"St Helens","away":"Hull FC","sel":"Hull FC","line":12.5,"market":"spread","price":1.87,"us":-115,"stake":114.94,"book":"assumed","assumed":true,"clv":0.0,"note":"edge 7.4 at entry","logged":"2026-08-05","score":"18-32","ats":26.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"Wakefield Trinity","away":"Leeds Rhinos","sel":"Wakefield Trinity","line":4.5,"market":"spread","price":1.87,"us":-115,"stake":114.94,"book":"assumed","assumed":true,"clv":0.5,"note":"edge 7.9 at entry","logged":"2026-08-05","score":"22-24","ats":2.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"Leigh Leopards","away":"York Knights","sel":"York Knights","line":20.5,"market":"spread","price":1.87,"us":-115,"stake":114.94,"book":"assumed","assumed":true,"clv":-0.5,"note":"edge 7.3 at entry","logged":"2026-08-05","score":"22-14","ats":12.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"Wigan Warriors","away":"Toulouse Olympique","sel":"Toulouse Olympique","line":34.5,"market":"spread","price":1.87,"us":-115,"stake":114.94,"book":"assumed","assumed":true,"clv":0.0,"note":"largest edge recorded 17.1","logged":"2026-08-05","score":"48-18","ats":4.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"Huddersfield Giants","away":"Catalans Dragons","sel":"Catalans Dragons","line":2.5,"market":"spread","price":1.87,"us":-115,"stake":114.94,"book":"assumed","assumed":true,"clv":0.0,"note":"lean; edge 5.3 at entry","logged":"2026-08-05","score":"42-20","ats":-19.5,"result":"LOSS","pnl":-114.94252873563217},{"league":"NRL","home":"Brisbane Broncos","away":"New Zealand Warriors","sel":"New Zealand Warriors","line":-4.5,"market":"spread","price":1.91,"us":-110,"stake":109.89,"book":"assumed","assumed":true,"clv":3.0,"note":"BET; edge 7.0 at entry","logged":"2026-08-10","score":"6-40","ats":29.5,"result":"WIN","pnl":100.0},{"league":"NRL","home":"Wests Tigers","away":"St George Illawarra Dragons","sel":"St George Illawarra Dragons","line":1.5,"market":"spread","price":1.9,"us":-111,"stake":111.11,"book":"betright","assumed":false,"clv":3.0,"note":"lean; edge 5.7 at entry","logged":"2026-08-10","score":"22-24","ats":3.5,"result":"WIN","pnl":100.0},{"league":"NRL","home":"Parramatta Eels","away":"North Queensland Cowboys","sel":"Parramatta Eels","line":4.5,"market":"spread","price":1.9,"us":-111,"stake":111.11,"book":"tab","assumed":false,"clv":0.0,"note":"lean; edge 5.6 at entry","logged":"2026-08-10","score":"32-30","ats":6.5,"result":"WIN","pnl":100.0},{"league":"NRL","home":"Manly Sea Eagles","away":"Dolphins","sel":"Manly Sea Eagles","line":6.0,"market":"spread","price":1.91,"us":-110,"stake":109.89,"book":"assumed","assumed":true,"clv":-2.5,"note":"lean; edge 4.4 at entry","logged":"2026-08-10","score":"0-22","ats":-16.0,"result":"LOSS","pnl":-109.8901098901099},{"league":"SL","home":"Hull FC","away":"Castleford Tigers","sel":"Castleford Tigers","line":14.5,"market":"spread","price":1.8,"us":-125,"stake":125.0,"book":"bet365","assumed":false,"clv":1.5,"note":"lean; edge 5.7 at entry","logged":"2026-08-10","score":"14-18","ats":18.5,"result":"WIN","pnl":100.0},{"league":"SL","home":"Leeds Rhinos","away":"Leigh Leopards","sel":"Leeds Rhinos","line":-12.5,"market":"spread","price":1.9091,"us":-110,"stake":110.0,"book":"bet365","assumed":false,"clv":-0.5,"note":"lean; edge 4.8 at entry","logged":"2026-08-10","score":"16-20","ats":-16.5,"result":"LOSS","pnl":-109.99890001099989},{"league":"SL","home":"Wakefield Trinity","away":"St Helens","sel":"Wakefield Trinity","line":-12.5,"market":"spread","price":1.9091,"us":-110,"stake":110.0,"book":"bet365","assumed":false,"clv":0.0,"note":"lean; edge 4.1 at entry","logged":"2026-08-10","score":"16-46","ats":-42.5,"result":"LOSS","pnl":-109.99890001099989},{"league":"SL","home":"Bradford Bulls","away":"Wigan Warriors","sel":"Under","line":54.5,"market":"total","price":1.8333,"us":-120,"stake":120.0,"book":"owner_live","assumed":true,"clv":1.0,"note":"LIVE bet placed by owner (-120); model raw total 47.4","logged":"2026-08-15","score":"6-34","ats":14.5,"result":"WIN","pnl":100.0}],"open":[{"league":"NRL","home":"Melbourne Storm","away":"Penrith Panthers","sel":"Melbourne Storm","line":8.5,"market":"spread","price":1.8696,"us":-115,"stake":115.0,"book":"bet365","assumed":false,"clv":0.0,"note":"BET; edge 8.6 (fairs not blind - lines seen first)","logged":"2026-08-17","cur":8.5},{"league":"NRL","home":"St George Illawarra Dragons","away":"Canterbury Bulldogs","sel":"St George Illawarra Dragons","line":6.5,"market":"spread","price":1.8696,"us":-115,"stake":115.0,"book":"bet365","assumed":false,"clv":0.0,"note":"lean; edge 5.4 (not blind)","logged":"2026-08-17","cur":6.5},{"league":"NRL","home":"Dolphins","away":"Parramatta Eels","sel":"Parramatta Eels","line":13.5,"market":"spread","price":1.8696,"us":-115,"stake":115.0,"book":"bet365","assumed":false,"clv":0.0,"note":"lean; edge 5.0 (not blind)","logged":"2026-08-17","cur":13.5}],"meta":{"record":"12-5","pnl":653.13,"roi":34.2,"avg_clv":0.57,"n_clv":20,"target":100.0,"risked":1911.22}};
+const f1 = v => (v>=0?"+":"") + v.toFixed(1);
+const pct = v => (v*100).toFixed(0);
+const now = new Date();
+
+const tzf = {};
+function ko(iso, tz) {
+  if (!iso) return "--";
+  if (!tzf[tz]) tzf[tz] = new Intl.DateTimeFormat("en-GB", {timeZone: tz,
+    weekday: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23"});
+  return tzf[tz].format(new Date(iso)).replace(",", "");
+}
+
+const m = P.meta;
+const openN = P.open.length;
+const cards = [
+  {k:"Open positions", v:openN,
+   sub:`${P.open.filter(b=>b.league==="NRL").length} NRL · ${P.open.filter(b=>b.league==="SL").length} Super League`},
+  {k:"Settled record", v:m.record,
+   sub:`risk/win $${m.target} · $${m.risked.toFixed(0)} risked`},
+  {k:"Ledger P/L", v:(m.pnl>=0?"+$":"-$")+Math.abs(m.pnl).toFixed(0),
+   pos:m.pnl>=0, neg:m.pnl<0, sub:"paper only — no stakes placed"},
+  {k:"ROI", v:(m.roi>=0?"+":"")+m.roi.toFixed(1)+"%", pos:m.roi>=0, neg:m.roi<0,
+   sub:"settled bets only"},
+];
+if (m.avg_clv !== null) cards.push({k:"Avg CLV", v:f1(m.avg_clv)+" pts",
+  pos:m.avg_clv>=0, neg:m.avg_clv<0, sub:`${m.n_clv} bets v current/closing line`});
+document.getElementById("cards").innerHTML = cards.map(c=>
+  `<div class="c"><div class="k">${c.k}</div>
+   <div class="v${c.pos?' pos':(c.neg?' neg':'')}">${c.v}</div>
+   <div class="sub">${c.sub}</div></div>`).join("");
+document.getElementById("stamp").textContent =
+  Object.entries(P.leagues).map(([k,v])=>`${k} ${v.round}`).join(" · ")
+  + ` · generated ${P.generated.slice(0,16).replace("T"," ")}Z`;
+
+function boardRow(r, tz) {
+  const done = r.score !== null && r.score !== undefined;
+  const e = r.edge;
+  const cls = e === null ? "" : (Math.abs(e) >= 6 ? "hi" : "");
+  return `
+    <td class="l"><span class="date">${done ? "FT" : ko(r.kickoff, tz)}</span></td>
+    <td class="l match"><b>${r.home}</b><span class="v">v</span>${r.away}
+      ${done ? `<span class="tag">${r.score[0]}–${r.score[1]}</span>` : ""}</td>
+    <td class="l favcell">
+      <div class="pnums">
+        <span class="hn ${r.p_home>=r.p_away?"fav":""}">${pct(r.p_home)}</span>
+        <span class="dn">${pct(r.p_draw)}</span>
+        <span class="an ${r.p_away>r.p_home?"fav":""}">${pct(r.p_away)}</span>
+      </div>
+      <div class="probbar">
+        <span class="h" style="width:${r.p_home*100}%"></span>
+        <span class="d" style="width:${r.p_draw*100}%"></span>
+        <span class="a" style="width:${r.p_away*100}%"></span>
+      </div>
+    </td>
+    <td>${r.ip_home!=null ? pct(r.ip_home)+"/"+pct(r.ip_away) : "—"}</td>
+    <td>${f1(r.raw)}</td>
+    <td>${f1(r.mov)}</td>
+    <td>${r.spread!=null ? f1(r.spread) : "—"}</td>
+    <td class="l"><span class="tag">${r.book || "—"}</span></td>
+    <td>${r.total!=null ? r.total.toFixed(1) : "—"}</td>
+    <td class="${cls}">${e!=null ? f1(e) : "—"}</td>`;
+}
+
+const bd = document.getElementById("boards");
+for (const [lg, rows] of Object.entries(P.boards)) {
+  const meta = P.leagues[lg];
+  const tz = lg === "NRL" ? "Australia/Sydney" : "Europe/London";
+  const live = rows.filter(r => !r.score).length;
+  const sec = document.createElement("section");
+  sec.className = "league";
+  sec.innerHTML = `<div class="eyebrow"><h2>${lg} — ${meta.round}</h2>
+    <span class="meta">${live} to play · ${rows.length - live} settled ·
+    conviction ${pct(meta.slope)}% · &plusmn;${meta.sigma.toFixed(0)} pt error ·
+    ${meta.oos} OOS games · ${meta.err_dist==="t"
+      ? `fat-tailed errors (t, df ${meta.err_df.toFixed(1)})`
+      : "normal errors"}</span></div>`;
+  const tbl = document.createElement("table");
+  tbl.innerHTML = `<thead><tr>
+    <th class="l">KO</th><th class="l">Match</th>
+    <th class="l favcell">Model&nbsp;H / D / A</th><th>Mkt&nbsp;H/A</th>
+    <th>Raw</th><th>Fair&nbsp;MOV</th><th>Spread</th><th class="l">Book</th>
+    <th>Total</th><th>Edge</th></tr></thead>`;
+  const tb = document.createElement("tbody");
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = boardRow(r, tz);
+    tb.appendChild(tr);
+  }
+  tbl.appendChild(tb);
+  const sc = document.createElement("div"); sc.className = "scroller";
+  sc.appendChild(tbl); sec.appendChild(sc);
+  bd.appendChild(sec);
+}
+
+// open positions
+if (P.open.length) {
+  const sec = document.createElement("section");
+  sec.className = "league";
+  const pos = P.open.filter(b=>b.clv>0).length;
+  sec.innerHTML = `<div class="eyebrow"><h2>Open Positions</h2>
+    <span class="meta">${P.open.length} live · ${pos} with the line already
+    moved our way</span></div>`;
+  const tbl = document.createElement("table");
+  tbl.innerHTML = `<thead><tr><th class="l">Lg</th><th class="l">Match</th>
+    <th class="l">Bet</th><th>Taken</th><th>Now</th><th>CLV</th>
+    <th class="l">Book</th><th class="l">Note</th></tr></thead>`;
+  const tb = document.createElement("tbody");
+  for (const b of P.open) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="l"><span class="tag">${b.league}</span></td>
+      <td class="l">${b.home} v ${b.away}</td>
+      <td class="l"><b>${b.market==="total" ? b.sel+" "+b.line.toFixed(1) : b.sel+" "+f1(b.line)}</b>${b.market==="total"?' <span class="tag">total</span>':""}</td>
+      <td>${b.market==="total" ? b.line.toFixed(1) : f1(b.line)}</td>
+      <td>${b.cur!=null ? (b.market==="total"?b.cur.toFixed(1):f1(b.cur)) : "—"}</td>
+      <td class="${b.clv>0?"pnl-pos":(b.clv<0?"pnl-neg":"")}">${b.clv!=null?f1(b.clv):"—"}</td>
+      <td class="l"><span class="tag">${b.book}</span></td>
+      <td class="l" style="white-space:normal;color:var(--sub);font-size:13px">${b.note}</td>`;
+    tb.appendChild(tr);
+  }
+  tbl.appendChild(tb);
+  const sc = document.createElement("div"); sc.className = "scroller";
+  sc.appendChild(tbl); sec.appendChild(sc);
+  document.getElementById("positions").appendChild(sec);
+}
+
+// settled ledger
+if (P.settled.length) {
+  const sec = document.createElement("section");
+  sec.className = "league";
+  sec.innerHTML = `<div class="eyebrow"><h2>Settled — CLV Ledger</h2>
+    <span class="meta">${P.settled.length} graded · P/L
+    ${(P.meta.pnl>=0?"+$":"-$")+Math.abs(P.meta.pnl).toFixed(0)}</span></div>`;
+  const tbl = document.createElement("table");
+  tbl.innerHTML = `<thead><tr><th class="l">Lg</th><th class="l">Match</th>
+    <th class="l">Bet</th><th>Price</th><th class="l">@</th><th>Score</th>
+    <th>ATS</th><th>CLV</th><th class="l">Result</th><th>Stake</th><th>P/L</th>
+    </tr></thead>`;
+  const tb = document.createElement("tbody");
+  for (const b of P.settled) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="l"><span class="tag">${b.league}</span></td>
+      <td class="l">${b.home} v ${b.away}</td>
+      <td class="l"><b>${b.market==="total" ? b.sel+" "+b.line.toFixed(1) : b.sel+" "+f1(b.line)}</b>${b.market==="total"?' <span class="tag">total</span>':""}</td>
+      <td>${b.price.toFixed(2)} <span class="date">${b.us>0?"+":""}${b.us}</span></td>
+      <td class="l"><span class="tag"${b.assumed?' title="no priced quote logged — assumed"':""}>${b.book}</span></td>
+      <td>${b.score}</td>
+      <td class="${b.ats>0?"pnl-pos":"pnl-neg"}">${f1(b.ats)}</td>
+      <td class="${b.clv>0?"pnl-pos":(b.clv<0?"pnl-neg":"")}">${b.clv!=null?f1(b.clv):"—"}</td>
+      <td class="l"><span class="res ${b.result==="WIN"?"win":"loss"}">${b.result}</span></td>
+      <td>$${b.stake.toFixed(2)}</td>
+      <td class="${b.pnl>=0?"pnl-pos":"pnl-neg"}">${(b.pnl>=0?"+":"-")+"$"+Math.abs(b.pnl).toFixed(2)}</td>`;
+    tb.appendChild(tr);
+  }
+  const tf = document.createElement("tfoot");
+  const nAss = P.settled.filter(b=>b.assumed).length;
+  tf.innerHTML = `<tr><td class="l" colspan="9" style="color:var(--sub)">
+    ${P.settled.length} bets sized to win $${P.meta.target.toFixed(0)} each at the
+    best price on offer at entry${nAss?` · ${nAss} priced by assumption (not captured)`:""}</td>
+    <td>$${P.meta.risked.toFixed(2)}</td>
+    <td class="${P.meta.pnl>=0?"pnl-pos":"pnl-neg"}">${(P.meta.pnl>=0?"+":"-")+"$"+Math.abs(P.meta.pnl).toFixed(2)}</td></tr>`;
+  tbl.appendChild(tb);
+  tbl.appendChild(tf);
+  const sc = document.createElement("div"); sc.className = "scroller";
+  sc.appendChild(tbl); sec.appendChild(sc);
+  document.getElementById("ledger").appendChild(sec);
+}
+</script>

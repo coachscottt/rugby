@@ -1,0 +1,181 @@
+round,date,home_team,away_team,home_score,away_score,venue
+Round 1,2026-02-28,Newcastle Knights,North Queensland Cowboys,28,18,Allegiant
+Round 1,2026-02-28,Canterbury Bulldogs,St George Illawarra Dragons,15,14,Allegiant
+Round 1,2026-03-05,Melbourne Storm,Parramatta Eels,52,4,AAMI
+Round 1,2026-03-06,New Zealand Warriors,Sydney Roosters,42,18,Go Media
+Round 1,2026-03-06,Brisbane Broncos,Penrith Panthers,0,26,Suncorp
+Round 1,2026-03-07,Cronulla Sharks,Gold Coast Titans,50,10,Ocean Protect
+Round 1,2026-03-07,Manly Sea Eagles,Canberra Raiders,28,29,4 Pines
+Round 1,2026-03-08,Dolphins,South Sydney Rabbitohs,30,40,Suncorp
+Round 2,2026-03-12,Brisbane Broncos,Parramatta Eels,32,40,Suncorp
+Round 2,2026-03-13,New Zealand Warriors,Canberra Raiders,40,6,Go Media
+Round 2,2026-03-13,Sydney Roosters,South Sydney Rabbitohs,26,18,Allianz
+Round 2,2026-03-14,Wests Tigers,North Queensland Cowboys,44,16,Leichhardt
+Round 2,2026-03-14,St George Illawarra Dragons,Melbourne Storm,20,46,WIN
+Round 2,2026-03-14,Penrith Panthers,Cronulla Sharks,26,6,Carrington
+Round 2,2026-03-15,Manly Sea Eagles,Newcastle Knights,16,36,4 Pines
+Round 2,2026-03-15,Dolphins,Gold Coast Titans,18,14,Suncorp
+Round 2,2026-03-19,Canberra Raiders,Canterbury Bulldogs,10,14,GIO
+Round 2,2026-03-20,Sydney Roosters,Penrith Panthers,4,40,Allianz
+Round 2,2026-03-20,Melbourne Storm,Brisbane Broncos,14,18,AAMI
+Round 2,2026-03-21,Newcastle Knights,New Zealand Warriors,12,38,McD. Jones
+Round 2,2026-03-21,Cronulla Sharks,Dolphins,10,38,Ocean Protect
+Round 2,2026-03-21,South Sydney Rabbitohs,Wests Tigers,20,16,polytec
+Round 2,2026-03-22,Parramatta Eels,St George Illawarra Dragons,30,20,CommBank
+Round 2,2026-03-22,North Queensland Cowboys,Gold Coast Titans,30,16,QLD C. Bank
+Round 4,2026-03-26,Manly Sea Eagles,Sydney Roosters,16,33,4 Pines
+Round 4,2026-03-27,New Zealand Warriors,Wests Tigers,14,32,Go Media
+Round 4,2026-03-27,Brisbane Broncos,Dolphins,26,12,Suncorp
+Round 4,2026-03-28,Canterbury Bulldogs,Newcastle Knights,16,24,Accor
+Round 4,2026-03-28,Penrith Panthers,Parramatta Eels,48,20,CommBank
+Round 4,2026-03-28,North Queensland Cowboys,Melbourne Storm,28,24,QLD C. Bank
+Round 4,2026-03-29,Canberra Raiders,Cronulla Sharks,22,34,GIO
+Round 4,2026-03-29,Gold Coast Titans,St George Illawarra Dragons,22,14,Cbus Super
+Round 5,2026-04-02,Dolphins,Manly Sea Eagles,18,52,Kayo
+Round 5,2026-04-03,South Sydney Rabbitohs,Canterbury Bulldogs,32,24,Accor
+Round 5,2026-04-03,Penrith Panthers,Melbourne Storm,50,10,CommBank
+Round 5,2026-04-04,St George Illawarra Dragons,North Queensland Cowboys,0,32,SGV Jubilee
+Round 5,2026-04-04,Gold Coast Titans,Brisbane Broncos,12,26,Cbus Super
+Round 5,2026-04-05,Cronulla Sharks,New Zealand Warriors,36,22,Ocean Protect
+Round 5,2026-04-05,Newcastle Knights,Canberra Raiders,32,12,McD. Jones
+Round 5,2026-04-06,Parramatta Eels,Wests Tigers,20,22,CommBank
+Round 6,2026-04-09,Canterbury Bulldogs,Penrith Panthers,32,16,Accor
+Round 6,2026-04-10,St George Illawarra Dragons,Manly Sea Eagles,18,28,WIN
+Round 6,2026-04-10,Brisbane Broncos,North Queensland Cowboys,31,35,Suncorp
+Round 6,2026-04-11,South Sydney Rabbitohs,Canberra Raiders,34,36,Optus Stadium
+Round 6,2026-04-11,Cronulla Sharks,Sydney Roosters,22,34,Optus Stadium
+Round 6,2026-04-11,Melbourne Storm,New Zealand Warriors,14,38,AAMI
+Round 6,2026-04-12,Parramatta Eels,Gold Coast Titans,10,52,CommBank
+Round 6,2026-04-12,Wests Tigers,Newcastle Knights,42,22,Campbelltown
+Round 7,2026-04-16,North Queensland Cowboys,Manly Sea Eagles,6,38,QLD C. Bank
+Round 7,2026-04-17,Canberra Raiders,Melbourne Storm,26,22,GIO
+Round 7,2026-04-17,Dolphins,Penrith Panthers,22,23,TIO
+Round 7,2026-04-18,New Zealand Warriors,Gold Coast Titans,28,20,Go Media
+Round 7,2026-04-18,South Sydney Rabbitohs,St George Illawarra Dragons,30,12,Accor
+Round 7,2026-04-18,Wests Tigers,Brisbane Broncos,20,21,Campbelltown
+Round 7,2026-04-19,Sydney Roosters,Newcastle Knights,38,24,Allianz
+Round 7,2026-04-19,Parramatta Eels,Canterbury Bulldogs,38,20,CommBank
+Round 7,2026-04-23,Wests Tigers,Canberra Raiders,33,14,Leichhardt
+Round 7,2026-04-24,North Queensland Cowboys,Cronulla Sharks,46,34,QLD C. Bank
+Round 7,2026-04-24,Brisbane Broncos,Canterbury Bulldogs,32,12,Suncorp
+Round 7,2026-04-25,St George Illawarra Dragons,Sydney Roosters,16,62,Allianz
+Round 7,2026-04-25,New Zealand Warriors,Dolphins,20,18,Hnry
+Round 7,2026-04-25,Melbourne Storm,South Sydney Rabbitohs,6,48,AAMI
+Round 7,2026-04-26,Newcastle Knights,Penrith Panthers,12,44,McD. Jones
+Round 7,2026-04-26,Manly Sea Eagles,Parramatta Eels,33,18,4 Pines
+Round 9,2026-05-01,Canterbury Bulldogs,North Queensland Cowboys,12,28,Accor
+Round 9,2026-05-01,Dolphins,Melbourne Storm,28,10,Suncorp
+Round 9,2026-05-02,Gold Coast Titans,Canberra Raiders,12,28,Cbus Super
+Round 9,2026-05-02,Parramatta Eels,New Zealand Warriors,14,36,CommBank
+Round 9,2026-05-02,Sydney Roosters,Brisbane Broncos,38,24,Allianz
+Round 9,2026-05-03,Newcastle Knights,South Sydney Rabbitohs,42,38,McD. Jones
+Round 9,2026-05-03,Cronulla Sharks,Wests Tigers,52,10,Ocean Protect
+Round 9,2026-05-03,Penrith Panthers,Manly Sea Eagles,18,16,CommBank
+Round 10,2026-05-07,Dolphins,Canterbury Bulldogs,44,12,Suncorp
+Round 10,2026-05-08,Sydney Roosters,Gold Coast Titans,28,12,polytec
+Round 10,2026-05-08,North Queensland Cowboys,Parramatta Eels,30,33,QLD C. Bank
+Round 10,2026-05-09,St George Illawarra Dragons,Newcastle Knights,10,44,WIN
+Round 10,2026-05-09,South Sydney Rabbitohs,Cronulla Sharks,36,12,Accor
+Round 10,2026-05-09,Manly Sea Eagles,Brisbane Broncos,32,4,4 Pines
+Round 10,2026-05-10,Melbourne Storm,Wests Tigers,44,16,AAMI
+Round 10,2026-05-10,Canberra Raiders,Penrith Panthers,18,30,GIO
+Round 10,2026-05-15,Cronulla Sharks,Canterbury Bulldogs,38,16,Suncorp
+Round 10,2026-05-15,South Sydney Rabbitohs,Dolphins,10,32,Suncorp
+Round 10,2026-05-16,Wests Tigers,Manly Sea Eagles,18,46,Suncorp
+Round 10,2026-05-16,Sydney Roosters,North Queensland Cowboys,12,18,Suncorp
+Round 10,2026-05-16,Parramatta Eels,Melbourne Storm,8,34,Suncorp
+Round 10,2026-05-17,Gold Coast Titans,Newcastle Knights,12,36,Suncorp
+Round 10,2026-05-17,New Zealand Warriors,Brisbane Broncos,42,12,Suncorp
+Round 10,2026-05-17,Penrith Panthers,St George Illawarra Dragons,28,6,Suncorp
+Round 12,2026-05-21,Canberra Raiders,Dolphins,22,30,GIO
+Round 12,2026-05-22,Canterbury Bulldogs,Melbourne Storm,30,20,Accor
+Round 12,2026-05-23,St George Illawarra Dragons,New Zealand Warriors,12,30,SGV Jubilee
+Round 12,2026-05-23,Manly Sea Eagles,Gold Coast Titans,12,10,4 Pines
+Round 12,2026-05-24,North Queensland Cowboys,South Sydney Rabbitohs,30,18,QLD C. Bank
+Round 13,2026-05-29,Cronulla Sharks,Manly Sea Eagles,28,22,Ocean Protect
+Round 13,2026-05-30,Newcastle Knights,Parramatta Eels,28,22,McD. Jones
+Round 13,2026-05-30,Wests Tigers,Canterbury Bulldogs,22,16,CommBank
+Round 13,2026-05-30,Melbourne Storm,Sydney Roosters,18,4,AAMI
+Round 13,2026-05-31,Brisbane Broncos,St George Illawarra Dragons,26,30,Suncorp
+Round 13,2026-05-31,Canberra Raiders,North Queensland Cowboys,26,12,GIO
+Round 13,2026-05-31,Penrith Panthers,New Zealand Warriors,20,18,CommBank
+Round 14,2026-06-04,Manly Sea Eagles,South Sydney Rabbitohs,28,14,4 Pines
+Round 14,2026-06-05,Melbourne Storm,Newcastle Knights,32,30,AAMI
+Round 14,2026-06-05,Canberra Raiders,Sydney Roosters,0,26,GIO
+Round 14,2026-06-06,North Queensland Cowboys,Dolphins,14,40,QLD C. Bank
+Round 14,2026-06-06,Brisbane Broncos,Gold Coast Titans,23,28,Suncorp
+Round 14,2026-06-07,Wests Tigers,Penrith Panthers,0,68,CommBank
+Round 14,2026-06-07,Cronulla Sharks,St George Illawarra Dragons,34,12,Ocean Protect
+Round 14,2026-06-08,Canterbury Bulldogs,Parramatta Eels,14,12,Accor
+Round 15,2026-06-11,South Sydney Rabbitohs,Brisbane Broncos,48,6,Accor
+Round 15,2026-06-12,Dolphins,Sydney Roosters,48,10,Suncorp
+Round 15,2026-06-13,New Zealand Warriors,Cronulla Sharks,8,10,Go Media
+Round 15,2026-06-13,Parramatta Eels,Canberra Raiders,15,12,CommBank
+Round 15,2026-06-14,Wests Tigers,Gold Coast Titans,36,28,Leichhardt
+Round 16,2026-06-19,Newcastle Knights,St George Illawarra Dragons,22,20,McD. Jones
+Round 16,2026-06-20,Wests Tigers,Dolphins,22,36,Campbelltown
+Round 16,2026-06-20,Gold Coast Titans,Penrith Panthers,19,18,Cbus Super
+Round 16,2026-06-20,Canterbury Bulldogs,Manly Sea Eagles,13,12,Accor
+Round 16,2026-06-21,New Zealand Warriors,North Queensland Cowboys,38,20,One NZ
+Round 16,2026-06-21,Melbourne Storm,Canberra Raiders,42,20,AAMI
+Round 16,2026-06-21,Sydney Roosters,Cronulla Sharks,27,8,Allianz
+Round 16,2026-06-25,Parramatta Eels,South Sydney Rabbitohs,12,32,CommBank
+Round 16,2026-06-26,Gold Coast Titans,Canterbury Bulldogs,12,30,Cbus Super
+Round 16,2026-06-26,Brisbane Broncos,Sydney Roosters,18,24,Suncorp
+Round 16,2026-06-27,Dolphins,New Zealand Warriors,26,24,Suncorp
+Round 16,2026-06-27,North Queensland Cowboys,Penrith Panthers,26,12,QLD C. Bank
+Round 16,2026-06-27,Manly Sea Eagles,Melbourne Storm,30,4,4 Pines
+Round 16,2026-06-28,Canberra Raiders,St George Illawarra Dragons,24,16,GIO
+Round 16,2026-06-28,Newcastle Knights,Wests Tigers,12,6,McD. Jones
+Round 18,2026-07-03,Penrith Panthers,South Sydney Rabbitohs,36,14,CommBank
+Round 18,2026-07-04,St George Illawarra Dragons,Wests Tigers,24,10,SGV Jubilee
+Round 18,2026-07-04,Brisbane Broncos,Cronulla Sharks,16,28,Suncorp
+Round 18,2026-07-05,Parramatta Eels,Manly Sea Eagles,23,14,CommBank
+Round 18,2026-07-05,Newcastle Knights,Dolphins,13,12,McD. Jones
+Round 19,2026-07-10,Wests Tigers,New Zealand Warriors,6,32,Campbelltown
+Round 19,2026-07-11,Dolphins,Cronulla Sharks,0,66,Kayo
+Round 19,2026-07-11,Canterbury Bulldogs,Canberra Raiders,16,40,Accor
+Round 19,2026-07-11,Sydney Roosters,Parramatta Eels,28,12,Allianz
+Round 19,2026-07-12,South Sydney Rabbitohs,Newcastle Knights,26,24,Accor
+Round 19,2026-07-12,Manly Sea Eagles,North Queensland Cowboys,18,19,4 Pines
+Round 19,2026-07-12,Melbourne Storm,Gold Coast Titans,22,18,AAMI
+Round 19,2026-07-16,Penrith Panthers,Brisbane Broncos,12,14,CommBank
+Round 19,2026-07-17,Cronulla Sharks,Newcastle Knights,20,18,Ocean Protect
+Round 19,2026-07-17,Sydney Roosters,Melbourne Storm,14,6,Allianz
+Round 19,2026-07-18,Canberra Raiders,South Sydney Rabbitohs,34,24,GIO
+Round 19,2026-07-18,New Zealand Warriors,St George Illawarra Dragons,20,12,Go Media
+Round 19,2026-07-18,Canterbury Bulldogs,Wests Tigers,32,0,Accor
+Round 19,2026-07-19,Gold Coast Titans,Manly Sea Eagles,38,32,Cbus Super
+Round 19,2026-07-19,Dolphins,North Queensland Cowboys,36,16,Suncorp
+Round 21,2026-07-23,Parramatta Eels,Penrith Panthers,18,24,CommBank
+Round 21,2026-07-24,Newcastle Knights,Sydney Roosters,22,23,McD. Jones
+Round 21,2026-07-24,South Sydney Rabbitohs,Melbourne Storm,28,26,Accor
+Round 21,2026-07-25,Canberra Raiders,Wests Tigers,56,10,GIO
+Round 21,2026-07-25,Canterbury Bulldogs,New Zealand Warriors,18,6,Accor
+Round 21,2026-07-25,North Queensland Cowboys,Brisbane Broncos,18,10,QLD C. Bank
+Round 21,2026-07-26,St George Illawarra Dragons,Gold Coast Titans,18,38,SGV Jubilee
+Round 21,2026-07-26,Manly Sea Eagles,Cronulla Sharks,12,48,4 Pines
+Round 22,2026-07-30,North Queensland Cowboys,Sydney Roosters,12,82,QLD C. Bank
+Round 22,2026-07-31,St George Illawarra Dragons,Dolphins,22,28,WIN
+Round 22,2026-07-31,Melbourne Storm,Canterbury Bulldogs,22,36,AAMI
+Round 22,2026-08-01,Gold Coast Titans,New Zealand Warriors,6,42,Cbus Super
+Round 22,2026-08-01,Penrith Panthers,Canberra Raiders,42,18,Glen Willow
+Round 22,2026-08-01,Brisbane Broncos,Newcastle Knights,6,30,Suncorp
+Round 22,2026-08-02,Cronulla Sharks,South Sydney Rabbitohs,32,16,Ocean Protect
+Round 22,2026-08-02,Wests Tigers,Parramatta Eels,13,16,CommBank
+Round 22,2026-08-06,Gold Coast Titans,North Queensland Cowboys,8,30,Cbus Super
+Round 22,2026-08-07,New Zealand Warriors,Penrith Panthers,28,12,Go Media
+Round 22,2026-08-07,Sydney Roosters,Canterbury Bulldogs,20,18,Allianz
+Round 22,2026-08-08,Melbourne Storm,Manly Sea Eagles,42,20,HBF
+Round 22,2026-08-08,Dolphins,Brisbane Broncos,40,32,Suncorp
+Round 22,2026-08-08,South Sydney Rabbitohs,Parramatta Eels,28,24,Allianz
+Round 22,2026-08-09,Canberra Raiders,Newcastle Knights,24,30,GIO
+Round 22,2026-08-09,St George Illawarra Dragons,Cronulla Sharks,24,16,SGV Jubilee
+Round 24,2026-08-13,Penrith Panthers,Sydney Roosters,6,12,CommBank
+Round 24,2026-08-14,Manly Sea Eagles,Dolphins,0,22,4 Pines Park
+Round 24,2026-08-14,Canterbury Bulldogs,South Sydney Rabbitohs,6,22,Accor
+Round 24,2026-08-15,Cronulla Sharks,Canberra Raiders,20,24,Ocean Protect
+Round 24,2026-08-15,Parramatta Eels,North Queensland Cowboys,32,30,CommBank
+Round 24,2026-08-15,Brisbane Broncos,New Zealand Warriors,6,40,Suncorp
+Round 24,2026-08-16,Newcastle Knights,Gold Coast Titans,36,26,McDonald Jones
+Round 24,2026-08-16,Wests Tigers,St George Illawarra Dragons,22,24,CommBank

@@ -1,0 +1,21 @@
+league,logged,home_team,away_team,selection,line,price,book,note,market
+nrl,2026-08-03,Gold Coast Titans,North Queensland Cowboys,Gold Coast Titans,3.5,1.91,au_median,edge 8.6 at entry,spread
+nrl,2026-08-03,New Zealand Warriors,Penrith Panthers,New Zealand Warriors,5.5,1.91,au_median,edge 7.2 at entry,spread
+nrl,2026-08-03,Dolphins,Brisbane Broncos,Dolphins,-7.5,1.91,au_median,lean; edge 4.6 at entry,spread
+nrl,2026-08-03,Canberra Raiders,Newcastle Knights,Newcastle Knights,3.5,1.91,au_median,lean; market later flipped Knights favourite,spread
+sl,2026-08-05,St Helens,Hull FC,Hull FC,12.5,1.87,bet365,edge 7.4 at entry,spread
+sl,2026-08-05,Wakefield Trinity,Leeds Rhinos,Wakefield Trinity,4.5,1.87,bet365,edge 7.9 at entry,spread
+sl,2026-08-05,Leigh Leopards,York Knights,York Knights,20.5,1.87,bet365,edge 7.3 at entry,spread
+sl,2026-08-05,Wigan Warriors,Toulouse Olympique,Toulouse Olympique,34.5,1.87,bet365,largest edge recorded 17.1,spread
+sl,2026-08-05,Huddersfield Giants,Catalans Dragons,Catalans Dragons,2.5,1.87,bet365,lean; edge 5.3 at entry,spread
+nrl,2026-08-10,Brisbane Broncos,New Zealand Warriors,New Zealand Warriors,-4.5,1.91,au_median,BET; edge 7.0 at entry,spread
+nrl,2026-08-10,Wests Tigers,St George Illawarra Dragons,St George Illawarra Dragons,1.5,1.91,au_median,lean; edge 5.7 at entry,spread
+nrl,2026-08-10,Parramatta Eels,North Queensland Cowboys,Parramatta Eels,4.5,1.91,au_median,lean; edge 5.6 at entry,spread
+nrl,2026-08-10,Manly Sea Eagles,Dolphins,Manly Sea Eagles,6.0,1.91,au_median,lean; edge 4.4 at entry,spread
+sl,2026-08-10,Hull FC,Castleford Tigers,Castleford Tigers,14.5,1.80,bet365,lean; edge 5.7 at entry,spread
+sl,2026-08-10,Leeds Rhinos,Leigh Leopards,Leeds Rhinos,-12.5,1.909,bet365,lean; edge 4.8 at entry,spread
+sl,2026-08-10,Wakefield Trinity,St Helens,Wakefield Trinity,-12.5,1.909,bet365,lean; edge 4.1 at entry,spread
+sl,2026-08-15,Bradford Bulls,Wigan Warriors,Under,54.5,1.8333,owner_live,LIVE bet placed by owner (-120); model raw total 47.4,total
+nrl,2026-08-17,Melbourne Storm,Penrith Panthers,Melbourne Storm,8.5,1.8696,bet365,BET; edge 8.6 (fairs not blind - lines seen first),spread
+nrl,2026-08-17,St George Illawarra Dragons,Canterbury Bulldogs,St George Illawarra Dragons,6.5,1.8696,bet365,lean; edge 5.4 (not blind),spread
+nrl,2026-08-17,Dolphins,Parramatta Eels,Parramatta Eels,13.5,1.8696,bet365,lean; edge 5.0 (not blind),spread

@@ -1,0 +1,25 @@
+snapshot,commence,home_team,away_team,book,home_spread,home_spread_price,away_spread_price,total,over_price,under_price,h2h_home,h2h_away
+2026-08-05T18:30:00Z,2026-08-07,Wakefield Trinity,Leeds Rhinos,bet365_manual,4.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-07,Castleford Tigers,Hull Kingston Rovers,bet365_manual,20.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-07,Leigh Leopards,York Knights,bet365_manual,-20.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-08,St Helens,Hull FC,bet365_manual,-12.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-08,Bradford Bulls,Warrington Wolves,bet365_manual,14.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-08,Wigan Warriors,Toulouse Olympique,bet365_manual,-34.5,,,,,,,
+2026-08-05T18:30:00Z,2026-08-09,Huddersfield Giants,Catalans Dragons,bet365_manual,-2.5,,,,,,,
+2026-08-07T01:09:36Z,2026-08-07,Wakefield Trinity,Leeds Rhinos,pinnacle_manual,4.0,1.877,1.909,43.5,1.893,1.893,2.22,1.649
+2026-08-07T01:09:36Z,2026-08-07,Castleford Tigers,Hull Kingston Rovers,pinnacle_manual,19.5,1.893,1.893,49.5,1.862,1.926,5.56,1.114
+2026-08-07T01:09:36Z,2026-08-07,Leigh Leopards,York Knights,pinnacle_manual,-21.0,1.877,1.909,50.5,1.901,1.885,1.071,7.06
+2026-08-10T17:33:25Z,2026-08-13,Hull Kingston Rovers,Catalans Dragons,bet365_manual,-24.5,1.9091,1.8,,,,1.04,10.0
+2026-08-10T17:33:25Z,2026-08-13,Leeds Rhinos,Leigh Leopards,bet365_manual,-12.5,1.9091,1.8,,,,1.2222,4.0
+2026-08-10T17:33:25Z,2026-08-13,Warrington Wolves,York Knights,bet365_manual,-18.5,1.9091,1.8,,,,1.1,7.0
+2026-08-10T17:33:25Z,2026-08-14,Hull FC,Castleford Tigers,bet365_manual,-14.5,1.9091,1.8,,,,1.1667,5.0
+2026-08-10T17:33:25Z,2026-08-15,Wakefield Trinity,St Helens,bet365_manual,-12.5,1.9091,1.8,,,,1.2222,4.0
+2026-08-10T17:33:25Z,2026-08-15,Bradford Bulls,Wigan Warriors,bet365_manual,24.5,1.8,1.9091,,,,9.0,1.05
+2026-08-10T17:33:25Z,2026-08-15,Toulouse Olympique,Huddersfield Giants,bet365_manual,-2.5,1.9091,1.8,,,,1.7246,2.0
+2026-08-12T22:29:19Z,2026-08-13,Hull Kingston Rovers,Catalans Dragons,pinnacle_manual,-24.5,1.9346,1.8475,55.5,1.9009,1.885,1.0556,7.94
+2026-08-12T22:29:19Z,2026-08-13,Warrington Wolves,York Knights,pinnacle_manual,-19.5,1.8197,1.9709,52.0,1.8621,1.9259,1.0895,6.3
+2026-08-12T22:29:19Z,2026-08-13,Leeds Rhinos,Leigh Leopards,pinnacle_manual,-12.0,1.8264,1.9709,46.5,1.8929,1.8929,1.2,4.15
+2026-08-13T21:40:51Z,2026-08-14,Hull FC,Castleford Tigers,pinnacle_manual,-13.0,1.8547,1.9346,48.0,1.9174,1.8696,1.1667,4.57
+2026-08-14T21:29:07Z,2026-08-15,Wakefield Trinity,St Helens,pinnacle_manual,-12.5,1.813,1.9804,47.5,1.8772,1.9091,1.2008,4.14
+2026-08-14T21:29:07Z,2026-08-15,Bradford Bulls,Wigan Warriors,pinnacle_manual,22.0,1.9259,1.8621,53.5,1.8547,1.9259,6.39,1.087
+2026-08-14T21:29:07Z,2026-08-15,Toulouse Olympique,Huddersfield Giants,pinnacle_manual,-4.5,1.9615,1.8264,48.5,1.9174,1.8696,1.6289,2.25
