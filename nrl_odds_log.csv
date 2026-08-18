@@ -448,3 +448,11 @@ snapshot,commence,home_team,away_team,book,home_spread,home_spread_price,away_sp
 2026-08-17T00:27:06Z,2026-08-22T09:35:00Z,St George Illawarra Dragons,Canterbury Bulldogs,bet365_manual,6.5,1.8696,1.8696,43.5,1.8696,1.8696,2.7,1.4184
 2026-08-17T00:27:06Z,2026-08-23T04:00:00Z,Gold Coast Titans,Cronulla Sharks,bet365_manual,6.5,1.8696,1.8696,49.5,1.8696,1.8696,2.7,1.4184
 2026-08-17T00:27:06Z,2026-08-23T06:05:00Z,Sydney Roosters,Wests Tigers,bet365_manual,-16.5,1.8696,1.8696,51.5,1.8696,1.8696,1.1111,5.5
+2026-08-18T15:33:22Z,2026-08-20T09:50:00Z,Melbourne Storm,Penrith Panthers,pinnacle_manual,7.5,1.9709,1.8475,,,,2.95,1.3968
+2026-08-18T15:33:22Z,2026-08-21T08:00:00Z,Canberra Raiders,Brisbane Broncos,pinnacle_manual,-8.5,1.8,2.03,,,,1.3279,3.28
+2026-08-18T15:33:22Z,2026-08-21T10:00:00Z,Dolphins,Parramatta Eels,pinnacle_manual,-13.5,1.7519,2.1,,,,1.207,4.27
+2026-08-18T15:33:22Z,2026-08-22T05:00:00Z,Newcastle Knights,Manly Sea Eagles,pinnacle_manual,-8.5,2.18,1.6944,,,,1.4762,2.67
+2026-08-18T15:33:22Z,2026-08-22T07:30:00Z,South Sydney Rabbitohs,New Zealand Warriors,pinnacle_manual,4.5,1.8333,1.9901,,,,2.35,1.6024
+2026-08-18T15:33:22Z,2026-08-22T09:35:00Z,St George Illawarra Dragons,Canterbury Bulldogs,pinnacle_manual,7.5,1.885,1.9346,,,,2.8,1.4367
+2026-08-18T15:33:22Z,2026-08-23T04:00:00Z,Gold Coast Titans,Cronulla Sharks,pinnacle_manual,8.5,1.8403,1.9901,,,,2.82,1.4292
+2026-08-18T15:33:22Z,2026-08-23T06:05:00Z,Sydney Roosters,Wests Tigers,pinnacle_manual,-22.5,1.8929,1.9259,,,,1.0799,7.28

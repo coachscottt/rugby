@@ -10,8 +10,8 @@ carry recent form (weight lam_form**k for a game k appearances ago).
 lam_form=None drops the form terms (pure flat model).
 """
 
-import os
 import csv
+import os
 
 import numpy as np
 
