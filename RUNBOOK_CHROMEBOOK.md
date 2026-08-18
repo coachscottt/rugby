@@ -32,16 +32,27 @@ cd ~/rugby && source .venv/bin/activate && git pull
 ```
 python nrl_odds_pull.py        # log current NRL lines (run a few times pre-round to keep line movement)
 python rl_results_pull.py      # after the games: pull NRL + Super League results
+python nrl_ols_deviation_model.py nrl && python nrl_ols_deviation_model.py sl
+python rugby_diagnostics.py    # refresh error models after a refit (optional)
 python rugby_board.py          # rebuild the board html
 git add -A && git commit -m "round update" && git push
 ```
-Then `claude` in this folder: "post the rugby board on Lavish" (it publishes
-to the existing rugby board URL from memory) and grade bets from your
-feedback into `rugby_bets.csv` — identical to the PC flow.
+Then `claude` in this folder: "publish the rugby fair value board" — it
+republishes the existing artifact at
+https://claude.ai/code/artifact/7ae756c4-fb0e-4e13-8e22-91f8349f779c
+(same URL every time; pass that URL so it updates rather than minting a new
+one). The old Lavish board is retired — fair value board only.
+Grade bets by pasting results/lines into the chat; they land in
+`rugby_bets.csv` — identical to the PC flow.
 
 ## Sync rule
 **`git pull` before you work, `git push` after — on whichever machine.**
-That's it. (Soccer's "one machine owns the DB" rule does not apply here;
+That's it. **This repo is the only copy that counts.** The Windows PC also
+has a loose set of these files in `OneDrive/WTA Model/` from before the repo
+existed; those are stale and must not be edited or copied over the repo —
+on the PC, work in `WTA Model/rugby/` and pull first.
+
+(Soccer's "one machine owns the DB" rule does not apply here;
 WNBA's "cloud collector is canonical" doesn't either — rugby has no
 automation, the repo is simply the shared folder.)
 
