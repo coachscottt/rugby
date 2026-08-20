@@ -17,11 +17,11 @@ import numpy as np
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS = {
-    "nrl": rf"{BASE_DIR}\nrl_2026_results.csv",
-    "sl": rf"{BASE_DIR}\sl_2026_results.csv",
+    "nrl": os.path.join(BASE_DIR, "nrl_2026_results.csv"),
+    "sl": os.path.join(BASE_DIR, "sl_2026_results.csv"),
 }
-PARAMS_PATH = {lg: rf"{BASE_DIR}\{lg}_model_params.json" for lg in RESULTS}
-OUTPUT_PATH = {lg: rf"{BASE_DIR}\{lg}_2026_model_output.csv" for lg in RESULTS}
+PARAMS_PATH = {lg: os.path.join(BASE_DIR, f"{lg}_model_params.json") for lg in RESULTS}
+OUTPUT_PATH = {lg: os.path.join(BASE_DIR, f"{lg}_2026_model_output.csv") for lg in RESULTS}
 MIN_SPLIT = 3    # prior games required in a split before its average is used
 MIN_TRAIN = 30   # training matches required before a round is predicted
 

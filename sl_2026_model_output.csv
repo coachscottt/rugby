@@ -12,6 +12,7 @@ Round 2,2026-02-20,St Helens,Leigh Leopards,20,18,,,,,2,,,,38
 Round 2,2026-02-21,Toulouse Olympique,Castleford Tigers,24,12,,,,,12,,,,36
 Round 2,2026-02-21,Wigan Warriors,Hull FC,34,6,,,,,28,,,,40
 Round 2,2026-02-22,Huddersfield Giants,Wakefield Trinity,16,18,,,,,-2,,,,34
+Round 2,2026-08-18,Hull Kingston Rovers,Warrington Wolves,28,34,,,,,-6,,,,62
 Round 3,2026-02-26,Wigan Warriors,Leigh Leopards,54,0,,,,,54,,,,54
 Round 3,2026-02-27,Castleford Tigers,Huddersfield Giants,34,8,,,,,26,,,,42
 Round 3,2026-02-27,Hull FC,York Knights,16,17,,,,,-1,,,,33
@@ -79,95 +80,95 @@ Round 10,2026-05-02,Huddersfield Giants,Warrington Wolves,4,34,,,,,-30,,,,38
 Round 10,2026-05-03,Hull FC,Toulouse Olympique,4,12,,,,,-8,,,,16
 Round 10,2026-05-09,St Helens,Wigan Warriors,0,32,,,,,-32,,,,32
 Round 10,2026-05-10,Warrington Wolves,Hull Kingston Rovers,12,32,,,,,-20,,,,44
-Round 11,2026-05-14,Huddersfield Giants,St Helens,18,26,15.82,30.77,-14.96,-12.1,-8,4.1,46.59,46.89,44
-Round 11,2026-05-15,Wakefield Trinity,Catalans Dragons,58,10,33.48,19.36,14.11,10.71,48,37.29,52.84,45.93,68
-Round 11,2026-05-15,Wigan Warriors,Leeds Rhinos,24,4,17.2,27.23,-10.04,-8.24,20,28.24,44.43,47.22,28
-Round 11,2026-05-16,York Knights,Castleford Tigers,18,24,26.6,14.63,11.98,9.04,-6,-15.04,41.23,47.71,42
-Round 11,2026-05-16,Leigh Leopards,Hull Kingston Rovers,16,20,11.44,37.12,-25.68,-20.51,-4,16.51,48.57,46.58,36
-Round 11,2026-05-16,Toulouse Olympique,Warrington Wolves,16,24,17.91,31.55,-13.63,-11.06,-8,3.06,49.46,46.45,40
-Round 11,2026-05-17,Bradford Bulls,Hull FC,16,14,17.11,33.73,-16.61,-13.39,2,15.39,50.84,46.24,30
-Round 12,2026-05-21,Hull Kingston Rovers,Wigan Warriors,62,4,26.49,16.98,9.52,7.1,58,50.9,43.47,47.37,66
-Round 12,2026-05-22,Leeds Rhinos,Huddersfield Giants,52,0,24.59,9.97,14.62,11.11,52,40.89,34.56,48.73,52
-Round 12,2026-05-22,Leigh Leopards,Hull FC,42,6,28.44,26.96,1.48,0.8,36,35.2,55.4,45.54,48
-Round 12,2026-05-23,Castleford Tigers,St Helens,30,10,9.8,29.38,-19.59,-15.73,20,35.73,39.18,48.02,40
-Round 12,2026-05-23,Toulouse Olympique,Wakefield Trinity,18,22,22.51,33.57,-11.06,-9.04,-4,5.04,56.08,45.43,40
-Round 12,2026-05-23,York Knights,Catalans Dragons,22,36,25.38,19.67,5.71,4.12,-14,-18.12,45.05,47.12,58
-Round 12,2026-05-24,Warrington Wolves,Bradford Bulls,26,12,29.63,9.35,20.28,15.55,14,-1.55,38.98,48.05,38
-Round 12,2026-05-30,Wigan Warriors,Hull Kingston Rovers,40,10,9.56,29.76,-20.2,-16.21,30,46.21,39.33,48.0,50
-Round 13,2026-06-04,Leeds Rhinos,St Helens,24,16,30.87,10.48,20.38,15.63,8,-7.63,41.35,47.69,40
-Round 13,2026-06-05,Bradford Bulls,York Knights,30,20,19.26,24.43,-5.17,-4.42,10,14.42,43.7,47.33,50
-Round 13,2026-06-05,Castleford Tigers,Leigh Leopards,14,24,20.53,29.01,-8.48,-7.02,-10,-2.98,49.53,46.44,38
-Round 13,2026-06-05,Warrington Wolves,Hull FC,12,4,34.23,15.38,18.85,14.43,8,-6.43,49.61,46.42,16
-Round 13,2026-06-06,Huddersfield Giants,Toulouse Olympique,16,36,20.9,23.82,-2.92,-2.66,-20,-17.34,44.71,47.17,52
-Round 13,2026-06-06,Wakefield Trinity,Hull Kingston Rovers,26,24,25.26,20.13,5.12,3.66,2,-1.66,45.39,47.07,50
-Round 13,2026-06-06,Catalans Dragons,Wigan Warriors,16,40,15.12,25.19,-10.07,-8.26,-24,-15.74,40.31,47.85,56
-Round 14,2026-06-11,St Helens,Warrington Wolves,6,18,21.87,22.46,-0.59,-0.82,-12,-11.18,44.33,47.23,24
-Round 14,2026-06-12,Toulouse Olympique,Leeds Rhinos,24,48,23.34,28.24,-4.9,-4.21,-24,-19.79,51.58,46.12,72
-Round 14,2026-06-12,Hull Kingston Rovers,York Knights,38,6,31.43,9.71,21.72,16.68,32,15.32,41.14,47.72,44
-Round 14,2026-06-12,Wakefield Trinity,Wigan Warriors,10,48,27.53,18.21,9.32,6.95,-38,-44.95,45.75,47.02,58
-Round 14,2026-06-13,Hull FC,Huddersfield Giants,36,12,29.3,18.36,10.94,8.22,24,15.78,47.66,46.72,48
-Round 14,2026-06-13,Catalans Dragons,Castleford Tigers,34,28,19.86,24.07,-4.21,-3.67,6,9.67,43.93,47.29,62
-Round 14,2026-06-14,Bradford Bulls,Leigh Leopards,12,38,20.36,27.39,-7.02,-5.87,-26,-20.13,47.75,46.71,50
-Round 15,2026-06-18,Warrington Wolves,Leeds Rhinos,6,34,23.45,21.92,1.52,0.83,-28,-28.83,45.37,47.07,40
-Round 15,2026-06-19,Hull FC,Wakefield Trinity,10,36,24.36,23.24,1.12,0.52,-26,-26.52,47.59,46.73,46
-Round 15,2026-06-19,Hull Kingston Rovers,Leigh Leopards,22,8,29.2,15.84,13.36,10.12,14,3.88,45.05,47.12,30
-Round 15,2026-06-20,York Knights,Wigan Warriors,20,72,13.66,29.76,-16.1,-12.99,-52,-39.01,43.43,47.37,92
-Round 15,2026-06-20,Catalans Dragons,Bradford Bulls,34,24,21.9,21.51,0.4,-0.05,10,10.05,43.41,47.37,58
-Round 15,2026-06-20,Castleford Tigers,Toulouse Olympique,36,18,23.7,21.53,2.17,1.34,18,16.66,45.24,47.09,54
-Round 15,2026-06-21,St Helens,Huddersfield Giants,38,6,31.59,14.7,16.89,12.89,32,19.11,46.28,46.93,44
-Round 16,2026-06-25,Warrington Wolves,Catalans Dragons,18,16,29.25,17.78,11.47,8.64,2,-6.64,47.03,46.82,34
-Round 16,2026-06-26,Castleford Tigers,York Knights,14,20,30.47,18.87,11.6,8.74,-6,-14.74,49.34,46.46,34
-Round 16,2026-06-26,Leeds Rhinos,Hull Kingston Rovers,34,8,23.6,18.64,4.96,3.53,26,22.47,42.24,47.55,42
-Round 16,2026-06-27,Hull FC,Wigan Warriors,16,20,17.22,31.13,-13.91,-11.28,-4,7.28,48.35,46.62,36
-Round 16,2026-06-27,Toulouse Olympique,Leigh Leopards,16,40,23.25,30.64,-7.39,-6.16,-24,-17.84,53.89,45.77,56
-Round 16,2026-06-27,Bradford Bulls,St Helens,10,40,19.01,28.35,-9.34,-7.69,-30,-22.31,47.36,46.77,50
-Round 16,2026-06-28,Wakefield Trinity,Huddersfield Giants,29,23,37.26,10.01,27.25,21.02,6,-15.02,47.27,46.78,52
-Round 16,2026-07-04,Huddersfield Giants,York Knights,24,36,25.95,25.68,0.26,-0.15,-12,-11.85,51.63,46.11,60
-Round 16,2026-07-04,Hull Kingston Rovers,Hull FC,26,12,29.55,12.21,17.35,13.25,14,0.75,41.76,47.63,38
-Round 16,2026-07-04,Leigh Leopards,Warrington Wolves,24,6,26.18,20.06,6.13,4.45,18,13.55,46.24,46.94,30
-Round 16,2026-07-04,Catalans Dragons,Toulouse Olympique,18,60,27.89,17.64,10.25,7.68,-42,-49.68,45.53,47.05,78
-Round 16,2026-07-05,Wakefield Trinity,Castleford Tigers,48,6,30.59,18.48,12.11,9.14,42,32.86,49.08,46.51,54
-Round 16,2026-07-05,Leeds Rhinos,Bradford Bulls,50,16,36.86,6.48,30.39,23.48,34,10.52,43.34,47.38,66
-Round 16,2026-07-05,Wigan Warriors,St Helens,16,14,28.56,16.34,12.21,9.22,2,-7.22,44.9,47.15,30
-Round 18,2026-07-09,York Knights,Hull FC,20,16,22.75,29.8,-7.05,-5.89,4,9.89,52.56,45.97,36
-Round 18,2026-07-10,Huddersfield Giants,Bradford Bulls,14,30,24.85,30.32,-5.48,-4.66,-16,-11.34,55.17,45.57,44
-Round 18,2026-07-10,Wigan Warriors,Warrington Wolves,30,18,29.18,15.17,14.02,10.63,12,1.37,44.35,47.23,48
-Round 18,2026-07-11,Leigh Leopards,Castleford Tigers,24,18,32.53,13.3,19.23,14.73,6,-8.73,45.83,47.0,42
-Round 18,2026-07-11,Hull Kingston Rovers,Wakefield Trinity,6,20,24.3,18.43,5.87,4.24,-14,-18.24,42.73,47.48,26
-Round 18,2026-07-11,Catalans Dragons,Leeds Rhinos,6,28,12.01,37.9,-25.89,-20.67,-22,-1.33,49.9,46.38,34
-Round 18,2026-07-12,St Helens,Toulouse Olympique,0,46,29.32,17.23,12.09,9.12,-46,-55.12,46.54,46.89,46
-Round 19,2026-07-16,Bradford Bulls,Wakefield Trinity,12,26,14.86,31.9,-17.05,-13.74,-14,-0.26,46.76,46.86,38
-Round 19,2026-07-17,Huddersfield Giants,Wigan Warriors,10,24,12.74,37.52,-24.78,-19.8,-14,5.8,50.25,46.33,34
-Round 19,2026-07-17,St Helens,Catalans Dragons,34,18,28.91,19.83,9.08,6.76,16,9.24,48.74,46.56,52
-Round 19,2026-07-18,Warrington Wolves,Hull Kingston Rovers,34,12,18.36,24.68,-6.32,-5.32,22,27.32,43.03,47.43,46
-Round 19,2026-07-18,Hull FC,Leigh Leopards,22,32,19.98,26.64,-6.65,-5.58,-10,-4.42,46.62,46.88,54
-Round 19,2026-07-18,Toulouse Olympique,York Knights,30,22,34.32,21.44,12.88,9.74,8,-1.74,55.76,45.48,52
-Round 19,2026-07-19,Castleford Tigers,Leeds Rhinos,36,34,11.78,34.3,-22.52,-18.03,2,20.03,46.08,46.96,70
-Round 20,2026-07-23,Hull FC,Hull Kingston Rovers,20,34,19.54,27.43,-7.89,-6.55,-14,-7.45,46.97,46.83,54
-Round 20,2026-07-24,Wakefield Trinity,Castleford Tigers,52,14,33.19,14.77,18.42,14.09,38,23.91,47.96,46.68,66
-Round 20,2026-07-24,Wigan Warriors,St Helens,38,16,28.63,16.12,12.51,9.46,22,12.54,44.75,47.17,54
-Round 20,2026-07-25,York Knights,Huddersfield Giants,22,24,26.58,24.05,2.53,1.62,-2,-3.62,50.63,46.27,46
-Round 20,2026-07-25,Leigh Leopards,Warrington Wolves,28,12,26.76,19.29,7.47,5.5,16,10.5,46.04,46.97,40
-Round 20,2026-07-25,Toulouse Olympique,Catalans Dragons,16,18,33.96,20.19,13.77,10.44,-2,-12.44,54.15,45.73,34
-Round 20,2026-07-26,Leeds Rhinos,Bradford Bulls,42,12,33.88,9.57,24.31,18.71,30,11.29,43.45,47.37,54
-Round 21,2026-07-30,Huddersfield Giants,Hull FC,22,16,20.81,29.48,-8.67,-7.17,6,13.17,50.29,46.32,38
-Round 21,2026-07-31,Hull Kingston Rovers,Bradford Bulls,40,16,30.5,14.89,15.61,11.89,24,12.11,45.39,47.07,56
-Round 21,2026-07-31,Leeds Rhinos,Toulouse Olympique,46,0,29.91,12.69,17.22,13.15,46,32.85,42.6,47.5,46
-Round 21,2026-07-31,Leigh Leopards,Wigan Warriors,8,20,24.27,21.3,2.97,1.97,-12,-13.97,45.57,47.04,28
-Round 21,2026-08-01,Castleford Tigers,Warrington Wolves,18,48,17.6,29.66,-12.06,-9.82,-30,-20.18,47.26,46.78,66
-Round 21,2026-08-01,York Knights,St Helens,34,32,20.55,27.77,-7.22,-6.03,2,8.03,48.32,46.62,66
-Round 21,2026-08-01,Catalans Dragons,Wakefield Trinity,12,32,14.67,32.25,-17.58,-14.15,-20,-5.85,46.92,46.84,44
-Round 22,2026-08-06,St Helens,Hull FC,18,32,25.82,20.75,5.07,3.61,-14,-17.61,46.57,46.89,50
-Round 22,2026-08-07,Castleford Tigers,Hull Kingston Rovers,0,44,15.0,33.27,-18.27,-14.69,-44,-29.31,48.27,46.63,44
-Round 22,2026-08-07,Leigh Leopards,York Knights,22,14,30.2,17.02,13.17,9.97,8,-1.97,47.22,46.79,36
-Round 22,2026-08-07,Wakefield Trinity,Leeds Rhinos,22,24,23.85,20.48,3.37,2.28,-2,-4.28,44.33,47.23,46
-Round 22,2026-08-08,Huddersfield Giants,Catalans Dragons,42,20,24.49,27.27,-2.78,-2.54,22,24.54,51.77,46.09,62
-Round 22,2026-08-08,Wigan Warriors,Toulouse Olympique,48,18,31.58,14.15,17.43,13.31,30,16.69,45.73,47.02,66
-Round 22,2026-08-08,Bradford Bulls,Warrington Wolves,4,42,15.89,32.19,-16.29,-13.14,-38,-24.86,48.08,46.66,46
-Round 23,2026-08-13,Hull Kingston Rovers,Catalans Dragons,28,10,34.6,12.34,22.27,17.11,18,0.89,46.94,46.83,38
-Round 23,2026-08-13,Leeds Rhinos,Leigh Leopards,16,20,30.02,12.74,17.28,13.2,-4,-17.2,42.76,47.47,36
-Round 23,2026-08-13,Warrington Wolves,York Knights,30,10,30.7,15.91,14.79,11.24,20,8.76,46.6,46.88,40
-Round 23,2026-08-14,Hull FC,Castleford Tigers,14,18,29.59,20.81,8.78,6.53,-4,-10.53,50.41,46.3,32
-Round 23,2026-08-15,Wakefield Trinity,St Helens,16,46,32.16,15.56,16.59,12.66,-30,-42.66,47.72,46.71,62
-Round 23,2026-08-15,Bradford Bulls,Wigan Warriors,6,34,10.42,36.93,-26.51,-21.16,-28,-6.84,47.36,46.77,40
-Round 23,2026-08-15,Toulouse Olympique,Huddersfield Giants,10,26,26.95,24.3,2.65,1.72,-16,-17.72,51.26,46.17,36
+Round 11,2026-05-14,Huddersfield Giants,St Helens,18,26,16.59,28.99,-12.4,-11.42,-8,3.42,45.58,47.12,44
+Round 11,2026-05-15,Wakefield Trinity,Catalans Dragons,58,10,33.2,18.74,14.46,10.99,48,37.01,51.94,45.79,68
+Round 11,2026-05-15,Wigan Warriors,Leeds Rhinos,24,4,20.23,26.17,-5.94,-6.03,20,26.03,46.4,46.95,28
+Round 11,2026-05-16,York Knights,Castleford Tigers,18,24,28.09,16.52,11.57,8.57,-6,-14.57,44.61,47.33,42
+Round 11,2026-05-16,Leigh Leopards,Hull Kingston Rovers,16,20,13.98,36.55,-22.57,-19.91,-4,15.91,50.53,46.08,36
+Round 11,2026-05-16,Toulouse Olympique,Warrington Wolves,16,24,22.41,29.18,-6.76,-6.72,-8,-1.28,51.59,45.86,40
+Round 11,2026-05-17,Bradford Bulls,Hull FC,16,14,16.08,33.36,-17.28,-15.5,2,17.5,49.45,46.31,30
+Round 12,2026-05-21,Hull Kingston Rovers,Wigan Warriors,62,4,26.25,14.15,12.1,9.02,58,48.98,40.4,48.21,66
+Round 12,2026-05-22,Leeds Rhinos,Huddersfield Giants,52,0,23.47,11.72,11.75,8.73,52,43.27,35.2,49.3,52
+Round 12,2026-05-22,Leigh Leopards,Hull FC,42,6,26.12,25.97,0.15,-0.95,36,36.95,52.08,45.76,48
+Round 12,2026-05-23,Castleford Tigers,St Helens,30,10,10.55,29.49,-18.94,-16.88,20,36.88,40.04,48.28,40
+Round 12,2026-05-23,Toulouse Olympique,Wakefield Trinity,18,22,22.71,30.2,-7.49,-7.33,-4,3.33,52.91,45.59,40
+Round 12,2026-05-23,York Knights,Catalans Dragons,22,36,27.2,20.32,6.88,4.66,-14,-18.66,47.51,46.72,58
+Round 12,2026-05-24,Warrington Wolves,Bradford Bulls,26,12,32.11,11.31,20.8,16.28,14,-2.28,43.42,47.57,38
+Round 12,2026-05-30,Wigan Warriors,Hull Kingston Rovers,40,10,12.06,29.0,-16.94,-15.21,30,45.21,41.06,48.07,50
+Round 13,2026-06-04,Leeds Rhinos,St Helens,24,16,30.05,10.81,19.24,14.97,8,-6.97,40.86,48.11,40
+Round 13,2026-06-05,Bradford Bulls,York Knights,30,20,22.63,25.3,-2.67,-3.3,10,13.3,47.94,46.63,50
+Round 13,2026-06-05,Castleford Tigers,Leigh Leopards,14,24,21.3,26.79,-5.49,-5.66,-10,-4.34,48.09,46.6,38
+Round 13,2026-06-05,Warrington Wolves,Hull FC,12,4,31.74,15.0,16.75,12.9,8,-4.9,46.74,46.88,16
+Round 13,2026-06-06,Huddersfield Giants,Toulouse Olympique,16,36,18.33,24.02,-5.69,-5.83,-20,-14.17,42.36,47.8,52
+Round 13,2026-06-06,Wakefield Trinity,Hull Kingston Rovers,26,24,26.41,19.45,6.96,4.73,2,-2.73,45.86,47.06,50
+Round 13,2026-06-06,Catalans Dragons,Wigan Warriors,16,40,17.26,24.7,-7.43,-7.28,-24,-16.72,41.96,47.88,56
+Round 14,2026-06-11,St Helens,Warrington Wolves,6,18,24.03,22.43,1.6,0.26,-12,-12.26,46.45,46.94,24
+Round 14,2026-06-12,Toulouse Olympique,Leeds Rhinos,24,48,24.65,26.53,-1.88,-2.65,-24,-21.35,51.17,45.95,72
+Round 14,2026-06-12,Hull Kingston Rovers,York Knights,38,6,33.59,9.03,24.55,19.41,32,12.59,42.62,47.74,44
+Round 14,2026-06-12,Wakefield Trinity,Wigan Warriors,10,48,28.74,17.67,11.07,8.16,-38,-46.16,46.4,46.95,58
+Round 14,2026-06-13,Hull FC,Huddersfield Giants,36,12,28.78,20.02,8.77,6.24,24,17.76,48.8,46.45,48
+Round 14,2026-06-13,Catalans Dragons,Castleford Tigers,34,28,21.2,23.51,-2.3,-3.0,6,9.0,44.71,47.3,62
+Round 14,2026-06-14,Bradford Bulls,Leigh Leopards,12,38,21.11,26.46,-5.35,-5.54,-26,-20.46,47.57,46.71,50
+Round 15,2026-06-18,Warrington Wolves,Leeds Rhinos,6,34,25.0,21.9,3.1,1.51,-28,-29.51,46.91,46.84,40
+Round 15,2026-06-19,Hull FC,Wakefield Trinity,10,36,23.71,23.82,-0.1,-1.16,-26,-24.84,47.53,46.71,46
+Round 15,2026-06-19,Hull Kingston Rovers,Leigh Leopards,22,8,29.71,13.89,15.82,12.13,14,1.87,43.6,47.54,30
+Round 15,2026-06-20,York Knights,Wigan Warriors,20,72,15.54,29.66,-14.11,-12.85,-52,-39.15,45.2,47.2,92
+Round 15,2026-06-20,Catalans Dragons,Bradford Bulls,34,24,23.45,21.17,2.29,0.83,10,9.17,44.62,47.32,58
+Round 15,2026-06-20,Castleford Tigers,Toulouse Olympique,36,18,22.08,22.18,-0.1,-1.16,18,19.16,44.27,47.4,54
+Round 15,2026-06-21,St Helens,Huddersfield Giants,38,6,31.07,15.88,15.19,11.6,32,20.4,46.96,46.83,44
+Round 16,2026-06-25,Warrington Wolves,Catalans Dragons,18,16,30.34,17.57,12.77,9.58,2,-7.58,47.91,46.63,34
+Round 16,2026-06-26,Castleford Tigers,York Knights,14,20,31.07,18.75,12.32,9.2,-6,-15.2,49.81,46.23,34
+Round 16,2026-06-26,Leeds Rhinos,Hull Kingston Rovers,34,8,24.05,17.88,6.16,4.06,26,21.94,41.93,47.89,42
+Round 16,2026-06-27,Hull FC,Wigan Warriors,16,20,19.46,31.03,-11.57,-10.73,-4,6.73,50.48,46.09,36
+Round 16,2026-06-27,Toulouse Olympique,Leigh Leopards,16,40,23.04,28.71,-5.67,-5.81,-24,-18.19,51.74,45.83,56
+Round 16,2026-06-27,Bradford Bulls,St Helens,10,40,19.26,28.75,-9.48,-8.99,-30,-21.01,48.01,46.61,50
+Round 16,2026-06-28,Wakefield Trinity,Huddersfield Giants,29,23,36.4,10.15,26.25,20.83,6,-14.83,46.55,46.92,52
+Round 16,2026-07-04,Huddersfield Giants,York Knights,24,36,26.47,25.07,1.4,0.09,-12,-12.09,51.54,45.87,60
+Round 16,2026-07-04,Hull Kingston Rovers,Hull FC,26,12,28.18,11.92,16.26,12.49,14,1.51,40.09,48.27,38
+Round 16,2026-07-04,Leigh Leopards,Warrington Wolves,24,6,26.56,20.67,5.89,3.84,18,14.16,47.23,46.78,30
+Round 16,2026-07-04,Catalans Dragons,Toulouse Olympique,18,60,26.38,18.02,8.36,5.9,-42,-47.9,44.41,47.37,78
+Round 16,2026-07-05,Wakefield Trinity,Castleford Tigers,48,6,31.56,17.25,14.31,10.86,42,31.14,48.81,46.45,54
+Round 16,2026-07-05,Leeds Rhinos,Bradford Bulls,50,16,37.33,6.5,30.83,24.65,34,9.35,43.82,47.49,66
+Round 16,2026-07-05,Wigan Warriors,St Helens,16,14,28.03,16.28,11.75,8.73,2,-6.73,44.31,47.39,30
+Round 18,2026-07-09,York Knights,Hull FC,20,16,21.35,28.45,-7.1,-7.0,4,11.0,49.79,46.24,36
+Round 18,2026-07-10,Huddersfield Giants,Bradford Bulls,14,30,26.15,29.54,-3.38,-3.9,-16,-12.1,55.69,45.0,44
+Round 18,2026-07-10,Wigan Warriors,Warrington Wolves,30,18,28.94,15.36,13.58,10.26,12,1.74,44.3,47.39,48
+Round 18,2026-07-11,Leigh Leopards,Castleford Tigers,24,18,33.39,13.32,20.08,15.68,6,-9.68,46.71,46.89,42
+Round 18,2026-07-11,Hull Kingston Rovers,Wakefield Trinity,6,20,24.48,18.04,6.43,4.29,-14,-18.29,42.52,47.76,26
+Round 18,2026-07-11,Catalans Dragons,Leeds Rhinos,6,28,13.56,35.96,-22.39,-19.76,-22,-2.24,49.52,46.3,34
+Round 18,2026-07-12,St Helens,Toulouse Olympique,0,46,28.6,18.07,10.53,7.71,-46,-53.71,46.67,46.89,46
+Round 19,2026-07-16,Bradford Bulls,Wakefield Trinity,12,26,14.77,31.86,-17.09,-15.34,-14,1.34,46.64,46.9,38
+Round 19,2026-07-17,Huddersfield Giants,Wigan Warriors,10,24,14.23,36.55,-22.32,-19.71,-14,5.71,50.78,46.03,34
+Round 19,2026-07-17,St Helens,Catalans Dragons,34,18,29.03,19.85,9.18,6.58,16,9.42,48.88,46.43,52
+Round 19,2026-07-18,Warrington Wolves,Hull Kingston Rovers,34,12,19.05,25.24,-6.19,-6.24,22,28.24,44.29,47.39,46
+Round 19,2026-07-18,Hull FC,Leigh Leopards,22,32,20.36,26.28,-5.92,-6.02,-10,-3.98,46.65,46.9,54
+Round 19,2026-07-18,Toulouse Olympique,York Knights,30,22,33.94,19.61,14.33,10.88,8,-2.88,53.55,45.45,52
+Round 19,2026-07-19,Castleford Tigers,Leeds Rhinos,36,34,13.12,33.55,-20.43,-18.12,2,20.12,46.67,46.89,70
+Round 20,2026-07-23,Hull FC,Hull Kingston Rovers,20,34,19.83,27.84,-8.02,-7.77,-14,-6.23,47.67,46.68,54
+Round 20,2026-07-24,Wakefield Trinity,Castleford Tigers,52,14,33.68,13.71,19.96,15.58,38,22.42,47.39,46.74,66
+Round 20,2026-07-24,Wigan Warriors,St Helens,38,16,27.8,16.28,11.51,8.53,22,13.47,44.08,47.44,54
+Round 20,2026-07-25,York Knights,Huddersfield Giants,22,24,26.4,23.73,2.68,1.16,-2,-3.16,50.13,46.17,46
+Round 20,2026-07-25,Leigh Leopards,Warrington Wolves,28,12,26.75,19.59,7.16,4.9,16,11.1,46.34,46.96,40
+Round 20,2026-07-25,Toulouse Olympique,Catalans Dragons,16,18,33.45,18.74,14.71,11.2,-2,-13.2,52.18,45.74,34
+Round 20,2026-07-26,Leeds Rhinos,Bradford Bulls,42,12,34.41,9.51,24.9,19.7,30,10.3,43.91,47.47,54
+Round 21,2026-07-30,Huddersfield Giants,Hull FC,22,16,19.61,28.88,-9.27,-8.81,6,14.81,48.49,46.51,38
+Round 21,2026-07-31,Hull Kingston Rovers,Bradford Bulls,40,16,31.43,15.33,16.1,12.36,24,11.64,46.77,46.87,56
+Round 21,2026-07-31,Leeds Rhinos,Toulouse Olympique,46,0,29.32,12.77,16.55,12.73,46,33.27,42.09,47.85,46
+Round 21,2026-07-31,Leigh Leopards,Wigan Warriors,8,20,25.02,21.29,3.73,2.04,-12,-14.04,46.31,46.97,28
+Round 21,2026-08-01,Castleford Tigers,Warrington Wolves,18,48,17.9,29.76,-11.86,-10.97,-30,-19.03,47.65,46.69,66
+Round 21,2026-08-01,York Knights,St Helens,34,32,20.13,27.53,-7.41,-7.26,2,9.26,47.66,46.69,66
+Round 21,2026-08-01,Catalans Dragons,Wakefield Trinity,12,32,14.65,31.13,-16.48,-14.83,-20,-5.17,45.78,47.08,44
+Round 22,2026-08-06,St Helens,Hull FC,18,32,24.63,20.89,3.74,2.04,-14,-16.04,45.52,47.13,50
+Round 22,2026-08-07,Castleford Tigers,Hull Kingston Rovers,0,44,15.66,33.13,-17.47,-15.66,-44,-28.34,48.79,46.45,44
+Round 22,2026-08-07,Leigh Leopards,York Knights,22,14,30.64,17.12,13.52,10.2,8,-2.2,47.76,46.66,36
+Round 22,2026-08-07,Wakefield Trinity,Leeds Rhinos,22,24,24.78,19.0,5.78,3.75,-2,-5.75,43.77,47.5,46
+Round 22,2026-08-08,Huddersfield Giants,Catalans Dragons,42,20,24.5,26.97,-2.47,-3.14,22,25.14,51.47,45.89,62
+Round 22,2026-08-08,Wigan Warriors,Toulouse Olympique,48,18,30.88,14.55,16.33,12.55,30,17.45,45.44,47.15,66
+Round 22,2026-08-08,Bradford Bulls,Warrington Wolves,4,42,16.64,32.68,-16.04,-14.46,-38,-23.54,49.31,46.34,46
+Round 23,2026-08-13,Hull Kingston Rovers,Catalans Dragons,28,10,34.78,12.38,22.4,17.62,18,0.38,47.16,46.79,38
+Round 23,2026-08-13,Leeds Rhinos,Leigh Leopards,16,20,29.94,12.0,17.94,13.9,-4,-17.9,41.94,47.88,36
+Round 23,2026-08-13,Warrington Wolves,York Knights,30,10,31.03,15.97,15.06,11.49,20,8.51,46.99,46.83,40
+Round 23,2026-08-14,Hull FC,Castleford Tigers,14,18,30.13,20.89,9.23,6.63,-4,-10.63,51.02,45.98,32
+Round 23,2026-08-15,Wakefield Trinity,St Helens,16,46,31.38,15.44,15.93,12.22,-30,-42.22,46.82,46.86,62
+Round 23,2026-08-15,Bradford Bulls,Wigan Warriors,6,34,11.58,36.92,-25.34,-22.22,-28,-5.78,48.5,46.51,40
+Round 23,2026-08-15,Toulouse Olympique,Huddersfield Giants,10,26,27.08,23.44,3.64,1.96,-16,-17.96,50.52,46.09,36

@@ -19,7 +19,7 @@ LEAGUES = {
     "nrl": {
         "url": "https://www.rugbyleagueproject.org/seasons/nrl-2026/results.html",
         "season_slug": "nrl-2026",
-        "out": rf"{BASE_DIR}\nrl_2026_results.csv",
+        "out": os.path.join(BASE_DIR, "nrl_2026_results.csv"),
         "teams": {
             "newcastle-knights": "Newcastle Knights",
             "north-queensland-cowboys": "North Queensland Cowboys",
@@ -45,7 +45,7 @@ LEAGUES = {
     "sl": {
         "url": "https://www.rugbyleagueproject.org/seasons/super-league-2026/results.html",
         "season_slug": "super-league-2026",
-        "out": rf"{BASE_DIR}\sl_2026_results.csv",
+        "out": os.path.join(BASE_DIR, "sl_2026_results.csv"),
         "teams": {
             "bradford-bulls": "Bradford Bulls",
             "castleford-tigers": "Castleford Tigers",
