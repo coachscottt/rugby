@@ -549,3 +549,10 @@ snapshot,commence,home_team,away_team,book,home_spread,home_spread_price,away_sp
 2026-08-20T20:19:34Z,2026-08-30T04:00:00Z,New Zealand Warriors,Newcastle Knights,tab,-6.5,1.9,1.9,,,,1.45,2.75
 2026-08-20T20:19:34Z,2026-08-30T06:05:00Z,Parramatta Eels,Cronulla Sutherland Sharks,sportsbet,6.5,1.83,1.98,51.5,1.87,1.93,2.66,1.48
 2026-08-20T20:19:34Z,2026-08-30T06:05:00Z,Parramatta Eels,Cronulla Sutherland Sharks,tab,6.5,1.9,1.9,,,,2.75,1.45
+2026-08-20T20:40:00Z,2026-08-21T08:00:00Z,Canberra Raiders,Brisbane Broncos,screenshot_manual,-8.5,1.8065,2.02,50.5,1.9174,1.9009,1.3344,3.25
+2026-08-20T20:40:00Z,2026-08-21T10:00:00Z,Dolphins,Parramatta Eels,screenshot_manual,-13.5,1.7692,2.07,49.5,1.9091,1.9091,1.2041,4.3
+2026-08-20T20:40:00Z,2026-08-22T05:00:00Z,Newcastle Knights,Manly Warringah Sea Eagles,screenshot_manual,-8.5,2.12,1.7353,,,,1.4566,2.72
+2026-08-20T20:40:00Z,2026-08-22T07:30:00Z,South Sydney Rabbitohs,New Zealand Warriors,screenshot_manual,4.5,1.8475,1.9709,,,,2.38,1.5882
+2026-08-20T20:40:00Z,2026-08-22T09:35:00Z,St George Illawarra Dragons,Canterbury Bulldogs,screenshot_manual,7.5,1.8475,1.9709,,,,2.75,1.4505
+2026-08-20T20:40:00Z,2026-08-23T04:00:00Z,Gold Coast Titans,Cronulla Sutherland Sharks,screenshot_manual,8.5,1.8197,2.0,,,,2.79,1.4367
+2026-08-20T20:40:00Z,2026-08-23T06:05:00Z,Sydney Roosters,Wests Tigers,screenshot_manual,-22.5,1.7634,2.08,,,,1.0708,7.77
